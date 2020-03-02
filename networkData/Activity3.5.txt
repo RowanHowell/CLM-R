@@ -1,0 +1,20 @@
+targets, factors
+Lte1, Cla4
+Mob1, Mob1
+Dbf2,  Dbf2
+Kin4, ! Lte1
+Cla4, Cla4
+Nud1, Nud1
+Spc72, Spc72
+PP2A_Rts1, PP2A_Rts1
+Amn1, Amn1
+Bmh1, Bmh1
+Polarity, Polarity
+Bfa1_high, (! Cdc5 & CDK_low & Bfa1_low) | (! Cdc14_low & CDK_low & Bfa1_low & ! Lte1)
+Bfa1_low, Bfa1_low
+Tem1_low, ! Bfa1_high | ! Bub2_high | ! Amn1
+Tem1_high, (! Bfa1_low & Tem1_low) | (! Bub2_low & Tem1_low) | (! Amn1 & Tem1_low)
+Cdc15_low, Cdc15_low
+Cdc15_high, Cdc15_low
+Bub2_low, Bub2_low
+Bub2_high, Bub2_low
