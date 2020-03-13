@@ -9,29 +9,28 @@ source("simulateMutantSync.R")
 source("simulateMutantAsync.R")
 
 # create network file
-createNetwork("Activity3.5.txt", "Localization3.5.txt", "FEARnet3.3.txt", "LocSpecificActivity3.5.txt", "model3.5", directory = "networkData")
+createNetwork("Activity5.txt", "Localization5.txt", "FEARnet3.txt", "LocSpecificActivity5.txt", "model5", directory = "networkData")
 
 # Make models
-model3.5 = loadNetwork("model3.5OE.txt") # model with OE
-model3.5noOE = loadNetwork("model3.5.txt") # model with no OE
-model3.5forceLoc = loadNetwork("model3.5SPB.txt") # model with forced localization
+model5 = loadNetwork("model5OE.txt") # model with OE
+model5noOE = loadNetwork("model5.txt") # model with no OE
+model5forceLoc = loadNetwork("model5SPB.txt") # model with forced localization
 
 # Make initial conditions
-ICs3.5 = makeICs("MetaAIC3.5.csv", "MetaLIC3.5.csv", model3.5, directory = "networkData")
-ICs3.5noOE = makeICs("MetaAIC3.5.csv", "MetaLIC3.5.csv", model3.5noOE, directory = "networkData")
-ICs3.5FL = makeICs("MetaAIC3.5.csv", "MetaLIC3.5.csv", model3.5forceLoc, directory = "networkData")
+ICs5 = makeICs("MetaAIC5.csv", "MetaLIC5.csv", model5, directory = "networkData")
+ICs5noOE = makeICs("MetaAIC5.csv", "MetaLIC5.csv", model5noOE, directory = "networkData")
+ICs5FL = makeICs("MetaAIC5.csv", "MetaLIC5.csv", model5forceLoc, directory = "networkData")
 
 # Synchronous steady states
-WTattractors = attractorsMultiMutant(prots = "NA", mutations = "NA", model = model3.5, mutname = "WT", unregfile = "model3.5unreg.csv", ICs3.5)
+WTattractors = attractorsMultiMutant(prots = "NA", mutations = "NA", model = model5, mutname = "WT", unregfile = "model5unreg.csv", ICs5)
 
-bub2attractors = attractorsMultiMutant(prots = "Bub2", mutations = "delete", model = model3.5, mutname = "bub2delete", unregfile = "model3.5unreg.csv", ICs3.5)
+bub2attractors = attractorsMultiMutant(prots = "Bub2", mutations = "delete", model = model5, mutname = "bub2delete", unregfile = "model5unreg.csv", ICs5)
 
 # Asynchronous trajectories
-WTEA = asyncStats(prot = "NA", mutation = "NA", model = model3.5, unregfile = "model3.5unreg.csv", ICs = ICs3.5, CCstage = "EA", timeMax =10000, N = 100)
+WTEA = asyncStats(prot = "NA", mutation = "NA", model = model5, unregfile = "model5unreg.csv", ICs = ICs5, CCstage = "EA", timeMax =10000, N = 100)
 
-bub2EA = asyncStats(prot = "Bub2", mutation = "delete", model = model3.5, unregfile = "model3.5unreg.csv", ICs = ICs3.5, CCstage = "EA", timeMax =10000, N = 100)
+bub2EA = asyncStats(prot = "Bub2", mutation = "delete", model = model5, unregfile = "model5unreg.csv", ICs = ICs5, CCstage = "EA", timeMax =10000, N = 100)
 
 sum(as.numeric(WTEA$exits=="ME")) # find number of cells that exit mitosis
 sum(as.numeric(bub2EA$exits=="ME"))
-
 
