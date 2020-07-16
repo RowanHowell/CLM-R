@@ -1,0 +1,1811 @@
+Node Lte1L_Cytoplasm {
+  logic = (PolarityA_Cytoplasm);
+  rate_up = @logic ? $u_Lte1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Lte1L_Cytoplasm;
+}
+
+Node Mob1L_Cytoplasm {
+  logic = (Mob1L_Cytoplasm);
+  rate_up = @logic ? $u_Mob1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Mob1L_Cytoplasm;
+}
+
+Node Elm1L_Cytoplasm {
+  logic = (Elm1L_Cytoplasm);
+  rate_up = @logic ? $u_Elm1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Elm1L_Cytoplasm;
+}
+
+Node Dbf2L_Cytoplasm {
+  logic = (Dbf2L_Cytoplasm);
+  rate_up = @logic ? $u_Dbf2L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Dbf2L_Cytoplasm;
+}
+
+Node Kin4L_Cytoplasm {
+  logic = (!PolarityA_Cytoplasm);
+  rate_up = @logic ? $u_Kin4L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Kin4L_Cytoplasm;
+}
+
+Node Cla4L_Cytoplasm {
+  logic = (Cla4L_Cytoplasm);
+  rate_up = @logic ? $u_Cla4L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cla4L_Cytoplasm;
+}
+
+Node Nud1L_Cytoplasm {
+  logic = (Nud1L_Cytoplasm);
+  rate_up = @logic ? $u_Nud1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Nud1L_Cytoplasm;
+}
+
+Node Spc72L_Cytoplasm {
+  logic = (Spc72L_Cytoplasm);
+  rate_up = @logic ? $u_Spc72L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Spc72L_Cytoplasm;
+}
+
+Node PP2ARts1L_Cytoplasm {
+  logic = (PP2ARts1L_Cytoplasm);
+  rate_up = @logic ? $u_PP2ARts1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_PP2ARts1L_Cytoplasm;
+}
+
+Node Amn1L_Cytoplasm {
+  logic = (Amn1L_Cytoplasm);
+  rate_up = @logic ? $u_Amn1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Amn1L_Cytoplasm;
+}
+
+Node Bmh1L_Cytoplasm {
+  logic = (Bmh1L_Cytoplasm);
+  rate_up = @logic ? $u_Bmh1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bmh1L_Cytoplasm;
+}
+
+Node PolarityL_Cytoplasm {
+  logic = (PolarityL_Cytoplasm);
+  rate_up = @logic ? $u_PolarityL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_PolarityL_Cytoplasm;
+}
+
+Node Bfa1highL_Cytoplasm {
+  logic = (Bfa1highL_Cytoplasm);
+  rate_up = @logic ? $u_Bfa1highL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highL_Cytoplasm;
+}
+
+Node Bfa1lowL_Cytoplasm {
+  logic = (Bfa1lowL_Cytoplasm);
+  rate_up = @logic ? $u_Bfa1lowL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowL_Cytoplasm;
+}
+
+Node Tem1lowL_Cytoplasm {
+  logic = (Tem1lowL_Cytoplasm);
+  rate_up = @logic ? $u_Tem1lowL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowL_Cytoplasm;
+}
+
+Node Tem1highL_Cytoplasm {
+  logic = (Tem1highL_Cytoplasm);
+  rate_up = @logic ? $u_Tem1highL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Tem1highL_Cytoplasm;
+}
+
+Node Cdc15lowL_Cytoplasm {
+  logic = (Cdc15lowL_Cytoplasm);
+  rate_up = @logic ? $u_Cdc15lowL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowL_Cytoplasm;
+}
+
+Node Cdc15highL_Cytoplasm {
+  logic = (Cdc15highL_Cytoplasm);
+  rate_up = @logic ? $u_Cdc15highL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highL_Cytoplasm;
+}
+
+Node Bub2lowL_Cytoplasm {
+  logic = (Bub2lowL_Cytoplasm);
+  rate_up = @logic ? $u_Bub2lowL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowL_Cytoplasm;
+}
+
+Node Bub2highL_Cytoplasm {
+  logic = (Bub2highL_Cytoplasm);
+  rate_up = @logic ? $u_Bub2highL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bub2highL_Cytoplasm;
+}
+
+Node Rsa1L_Cytoplasm {
+  logic = (Rsa1L_Cytoplasm);
+  rate_up = @logic ? $u_Rsa1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Rsa1L_Cytoplasm;
+}
+
+Node Hit1L_Cytoplasm {
+  logic = (Hit1L_Cytoplasm);
+  rate_up = @logic ? $u_Hit1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Hit1L_Cytoplasm;
+}
+
+Node APCCdc20L_Cytoplasm {
+  logic = (APCCdc20A_Nucleus);
+  rate_up = @logic ? $u_APCCdc20L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_APCCdc20L_Cytoplasm;
+}
+
+Node Pds1L_Cytoplasm {
+  logic = (Pds1L_Cytoplasm);
+  rate_up = @logic ? $u_Pds1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Pds1L_Cytoplasm;
+}
+
+Node Esp1L_Cytoplasm {
+  logic = (Esp1L_Cytoplasm);
+  rate_up = @logic ? $u_Esp1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Esp1L_Cytoplasm;
+}
+
+Node Slk19L_Cytoplasm {
+  logic = (Slk19L_Cytoplasm);
+  rate_up = @logic ? $u_Slk19L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Slk19L_Cytoplasm;
+}
+
+Node Zds1L_Cytoplasm {
+  logic = (Zds1L_Cytoplasm);
+  rate_up = @logic ? $u_Zds1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Zds1L_Cytoplasm;
+}
+
+Node Cdc5L_Cytoplasm {
+  logic = (Cdc5L_Cytoplasm);
+  rate_up = @logic ? $u_Cdc5L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc5L_Cytoplasm;
+}
+
+Node PP2ACdc55L_Cytoplasm {
+  logic = (PP2ACdc55L_Cytoplasm);
+  rate_up = @logic ? $u_PP2ACdc55L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_PP2ACdc55L_Cytoplasm;
+}
+
+Node CDKlowL_Cytoplasm {
+  logic = (CDKlowL_Cytoplasm);
+  rate_up = @logic ? $u_CDKlowL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_CDKlowL_Cytoplasm;
+}
+
+Node CDKhighL_Cytoplasm {
+  logic = (!APCCdc20A_Cytoplasm);
+  rate_up = @logic ? $u_CDKhighL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_CDKhighL_Cytoplasm;
+}
+
+Node Fob1L_Cytoplasm {
+  logic = (Fob1L_Cytoplasm);
+  rate_up = @logic ? $u_Fob1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Fob1L_Cytoplasm;
+}
+
+Node Spo12L_Cytoplasm {
+  logic = (Spo12L_Cytoplasm);
+  rate_up = @logic ? $u_Spo12L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Spo12L_Cytoplasm;
+}
+
+Node SACL_Cytoplasm {
+  logic = (SACL_Cytoplasm);
+  rate_up = @logic ? $u_SACL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_SACL_Cytoplasm;
+}
+
+Node Cdc14lowL_Cytoplasm {
+  logic = (Cdc14highL_Nucleus);
+  rate_up = @logic ? $u_Cdc14lowL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowL_Cytoplasm;
+}
+
+Node Cdc14highL_Cytoplasm {
+  logic = (Cdc14lowL_Cytoplasm & Mob1L_Nucleus & Cdc14highL_Nucleus & Dbf2A_Nucleus);
+  rate_up = @logic ? $u_Cdc14highL_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highL_Cytoplasm;
+}
+
+Node Net1L_Cytoplasm {
+  logic = (Net1L_Cytoplasm);
+  rate_up = @logic ? $u_Net1L_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Net1L_Cytoplasm;
+}
+
+Node Lte1L_Bud {
+  logic = (PolarityA_Bud);
+  rate_up = @logic ? $u_Lte1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Lte1L_Bud;
+}
+
+Node Mob1L_Bud {
+  logic = (Mob1L_Bud);
+  rate_up = @logic ? $u_Mob1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Mob1L_Bud;
+}
+
+Node Elm1L_Bud {
+  logic = (Elm1L_Bud);
+  rate_up = @logic ? $u_Elm1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Elm1L_Bud;
+}
+
+Node Dbf2L_Bud {
+  logic = (Dbf2L_Bud);
+  rate_up = @logic ? $u_Dbf2L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Dbf2L_Bud;
+}
+
+Node Kin4L_Bud {
+  logic = (!PolarityA_Bud);
+  rate_up = @logic ? $u_Kin4L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Kin4L_Bud;
+}
+
+Node Cla4L_Bud {
+  logic = (Cla4L_Bud);
+  rate_up = @logic ? $u_Cla4L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cla4L_Bud;
+}
+
+Node Nud1L_Bud {
+  logic = (Nud1L_Bud);
+  rate_up = @logic ? $u_Nud1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Nud1L_Bud;
+}
+
+Node Spc72L_Bud {
+  logic = (Spc72L_Bud);
+  rate_up = @logic ? $u_Spc72L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Spc72L_Bud;
+}
+
+Node PP2ARts1L_Bud {
+  logic = (PP2ARts1L_Bud);
+  rate_up = @logic ? $u_PP2ARts1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_PP2ARts1L_Bud;
+}
+
+Node Amn1L_Bud {
+  logic = (Amn1L_Bud);
+  rate_up = @logic ? $u_Amn1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Amn1L_Bud;
+}
+
+Node Bmh1L_Bud {
+  logic = (Bmh1L_Bud);
+  rate_up = @logic ? $u_Bmh1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bmh1L_Bud;
+}
+
+Node PolarityL_Bud {
+  logic = (PolarityL_Bud);
+  rate_up = @logic ? $u_PolarityL_Bud : 0;
+  rate_down = @logic ? 0 : $d_PolarityL_Bud;
+}
+
+Node Bfa1highL_Bud {
+  logic = (Bfa1highL_Bud);
+  rate_up = @logic ? $u_Bfa1highL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highL_Bud;
+}
+
+Node Bfa1lowL_Bud {
+  logic = (Bfa1lowL_Bud);
+  rate_up = @logic ? $u_Bfa1lowL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowL_Bud;
+}
+
+Node Tem1lowL_Bud {
+  logic = (Tem1lowL_Bud);
+  rate_up = @logic ? $u_Tem1lowL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowL_Bud;
+}
+
+Node Tem1highL_Bud {
+  logic = (Tem1highL_Bud);
+  rate_up = @logic ? $u_Tem1highL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Tem1highL_Bud;
+}
+
+Node Cdc15lowL_Bud {
+  logic = (Cdc15lowL_Bud);
+  rate_up = @logic ? $u_Cdc15lowL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowL_Bud;
+}
+
+Node Cdc15highL_Bud {
+  logic = (Cdc15highL_Bud);
+  rate_up = @logic ? $u_Cdc15highL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highL_Bud;
+}
+
+Node Bub2lowL_Bud {
+  logic = (Bub2lowL_Bud);
+  rate_up = @logic ? $u_Bub2lowL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowL_Bud;
+}
+
+Node Bub2highL_Bud {
+  logic = (Bub2highL_Bud);
+  rate_up = @logic ? $u_Bub2highL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bub2highL_Bud;
+}
+
+Node Rsa1L_Bud {
+  logic = (Rsa1L_Bud);
+  rate_up = @logic ? $u_Rsa1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Rsa1L_Bud;
+}
+
+Node Hit1L_Bud {
+  logic = (Hit1L_Bud);
+  rate_up = @logic ? $u_Hit1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Hit1L_Bud;
+}
+
+Node APCCdc20L_Bud {
+  logic = (APCCdc20A_Nucleus);
+  rate_up = @logic ? $u_APCCdc20L_Bud : 0;
+  rate_down = @logic ? 0 : $d_APCCdc20L_Bud;
+}
+
+Node Pds1L_Bud {
+  logic = (Pds1L_Bud);
+  rate_up = @logic ? $u_Pds1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Pds1L_Bud;
+}
+
+Node Esp1L_Bud {
+  logic = (Esp1L_Bud);
+  rate_up = @logic ? $u_Esp1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Esp1L_Bud;
+}
+
+Node Slk19L_Bud {
+  logic = (Slk19L_Bud);
+  rate_up = @logic ? $u_Slk19L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Slk19L_Bud;
+}
+
+Node Zds1L_Bud {
+  logic = (Zds1L_Bud);
+  rate_up = @logic ? $u_Zds1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Zds1L_Bud;
+}
+
+Node Cdc5L_Bud {
+  logic = (Cdc5L_Bud);
+  rate_up = @logic ? $u_Cdc5L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc5L_Bud;
+}
+
+Node PP2ACdc55L_Bud {
+  logic = (PP2ACdc55L_Bud);
+  rate_up = @logic ? $u_PP2ACdc55L_Bud : 0;
+  rate_down = @logic ? 0 : $d_PP2ACdc55L_Bud;
+}
+
+Node CDKlowL_Bud {
+  logic = (CDKlowL_Bud);
+  rate_up = @logic ? $u_CDKlowL_Bud : 0;
+  rate_down = @logic ? 0 : $d_CDKlowL_Bud;
+}
+
+Node CDKhighL_Bud {
+  logic = (!APCCdc20A_Bud);
+  rate_up = @logic ? $u_CDKhighL_Bud : 0;
+  rate_down = @logic ? 0 : $d_CDKhighL_Bud;
+}
+
+Node Fob1L_Bud {
+  logic = (Fob1L_Bud);
+  rate_up = @logic ? $u_Fob1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Fob1L_Bud;
+}
+
+Node Spo12L_Bud {
+  logic = (Spo12L_Bud);
+  rate_up = @logic ? $u_Spo12L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Spo12L_Bud;
+}
+
+Node SACL_Bud {
+  logic = (SACL_Bud);
+  rate_up = @logic ? $u_SACL_Bud : 0;
+  rate_down = @logic ? 0 : $d_SACL_Bud;
+}
+
+Node Cdc14lowL_Bud {
+  logic = (Cdc14highL_Nucleus);
+  rate_up = @logic ? $u_Cdc14lowL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowL_Bud;
+}
+
+Node Cdc14highL_Bud {
+  logic = (Cdc14lowL_Bud & Mob1L_Nucleus & Cdc14highL_Nucleus & Dbf2A_Nucleus);
+  rate_up = @logic ? $u_Cdc14highL_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highL_Bud;
+}
+
+Node Net1L_Bud {
+  logic = (Net1L_Bud);
+  rate_up = @logic ? $u_Net1L_Bud : 0;
+  rate_down = @logic ? 0 : $d_Net1L_Bud;
+}
+
+Node Lte1L_Nucleus {
+  logic = (Lte1L_Nucleus);
+  rate_up = @logic ? $u_Lte1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Lte1L_Nucleus;
+}
+
+Node Mob1L_Nucleus {
+  logic = (Mob1L_Nucleus);
+  rate_up = @logic ? $u_Mob1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Mob1L_Nucleus;
+}
+
+Node Elm1L_Nucleus {
+  logic = (Elm1L_Nucleus);
+  rate_up = @logic ? $u_Elm1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Elm1L_Nucleus;
+}
+
+Node Dbf2L_Nucleus {
+  logic = (Dbf2L_Nucleus);
+  rate_up = @logic ? $u_Dbf2L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Dbf2L_Nucleus;
+}
+
+Node Kin4L_Nucleus {
+  logic = (Kin4L_Nucleus);
+  rate_up = @logic ? $u_Kin4L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Kin4L_Nucleus;
+}
+
+Node Cla4L_Nucleus {
+  logic = (Cla4L_Nucleus);
+  rate_up = @logic ? $u_Cla4L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cla4L_Nucleus;
+}
+
+Node Nud1L_Nucleus {
+  logic = (Nud1L_Nucleus);
+  rate_up = @logic ? $u_Nud1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Nud1L_Nucleus;
+}
+
+Node Spc72L_Nucleus {
+  logic = (Spc72L_Nucleus);
+  rate_up = @logic ? $u_Spc72L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Spc72L_Nucleus;
+}
+
+Node PP2ARts1L_Nucleus {
+  logic = (PP2ARts1L_Nucleus);
+  rate_up = @logic ? $u_PP2ARts1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_PP2ARts1L_Nucleus;
+}
+
+Node Amn1L_Nucleus {
+  logic = (Amn1L_Nucleus);
+  rate_up = @logic ? $u_Amn1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Amn1L_Nucleus;
+}
+
+Node Bmh1L_Nucleus {
+  logic = (Bmh1L_Nucleus);
+  rate_up = @logic ? $u_Bmh1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bmh1L_Nucleus;
+}
+
+Node PolarityL_Nucleus {
+  logic = (PolarityL_Nucleus);
+  rate_up = @logic ? $u_PolarityL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_PolarityL_Nucleus;
+}
+
+Node Bfa1highL_Nucleus {
+  logic = (Bfa1highL_Nucleus);
+  rate_up = @logic ? $u_Bfa1highL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highL_Nucleus;
+}
+
+Node Bfa1lowL_Nucleus {
+  logic = (Bfa1lowL_Nucleus);
+  rate_up = @logic ? $u_Bfa1lowL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowL_Nucleus;
+}
+
+Node Tem1lowL_Nucleus {
+  logic = (Tem1lowL_Nucleus);
+  rate_up = @logic ? $u_Tem1lowL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowL_Nucleus;
+}
+
+Node Tem1highL_Nucleus {
+  logic = (Tem1highL_Nucleus);
+  rate_up = @logic ? $u_Tem1highL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Tem1highL_Nucleus;
+}
+
+Node Cdc15lowL_Nucleus {
+  logic = (Cdc15lowL_Nucleus);
+  rate_up = @logic ? $u_Cdc15lowL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowL_Nucleus;
+}
+
+Node Cdc15highL_Nucleus {
+  logic = (Cdc15highL_Nucleus);
+  rate_up = @logic ? $u_Cdc15highL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highL_Nucleus;
+}
+
+Node Bub2lowL_Nucleus {
+  logic = (Bub2lowL_Nucleus);
+  rate_up = @logic ? $u_Bub2lowL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowL_Nucleus;
+}
+
+Node Bub2highL_Nucleus {
+  logic = (Bub2highL_Nucleus);
+  rate_up = @logic ? $u_Bub2highL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bub2highL_Nucleus;
+}
+
+Node Rsa1L_Nucleus {
+  logic = (Rsa1L_Nucleus);
+  rate_up = @logic ? $u_Rsa1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Rsa1L_Nucleus;
+}
+
+Node Hit1L_Nucleus {
+  logic = (Hit1L_Nucleus);
+  rate_up = @logic ? $u_Hit1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Hit1L_Nucleus;
+}
+
+Node APCCdc20L_Nucleus {
+  logic = (!SACA_Nucleus);
+  rate_up = @logic ? $u_APCCdc20L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_APCCdc20L_Nucleus;
+}
+
+Node Pds1L_Nucleus {
+  logic = (!APCCdc20A_Nucleus);
+  rate_up = @logic ? $u_Pds1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Pds1L_Nucleus;
+}
+
+Node Esp1L_Nucleus {
+  logic = (Esp1L_Nucleus);
+  rate_up = @logic ? $u_Esp1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Esp1L_Nucleus;
+}
+
+Node Slk19L_Nucleus {
+  logic = (Slk19L_Nucleus);
+  rate_up = @logic ? $u_Slk19L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Slk19L_Nucleus;
+}
+
+Node Zds1L_Nucleus {
+  logic = (Zds1L_Nucleus);
+  rate_up = @logic ? $u_Zds1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Zds1L_Nucleus;
+}
+
+Node Cdc5L_Nucleus {
+  logic = (Cdc5L_Nucleus);
+  rate_up = @logic ? $u_Cdc5L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc5L_Nucleus;
+}
+
+Node PP2ACdc55L_Nucleus {
+  logic = (!Slk19A_Nucleus) | (Slk19A_Nucleus & !Zds1A_Nucleus);
+  rate_up = @logic ? $u_PP2ACdc55L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_PP2ACdc55L_Nucleus;
+}
+
+Node CDKlowL_Nucleus {
+  logic = (CDKlowL_Nucleus);
+  rate_up = @logic ? $u_CDKlowL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_CDKlowL_Nucleus;
+}
+
+Node CDKhighL_Nucleus {
+  logic = (!APCCdc20A_Nucleus);
+  rate_up = @logic ? $u_CDKhighL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_CDKhighL_Nucleus;
+}
+
+Node Fob1L_Nucleus {
+  logic = (Fob1L_Nucleus);
+  rate_up = @logic ? $u_Fob1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Fob1L_Nucleus;
+}
+
+Node Spo12L_Nucleus {
+  logic = (Spo12L_Nucleus);
+  rate_up = @logic ? $u_Spo12L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Spo12L_Nucleus;
+}
+
+Node SACL_Nucleus {
+  logic = (SACL_Nucleus);
+  rate_up = @logic ? $u_SACL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_SACL_Nucleus;
+}
+
+Node Cdc14lowL_Nucleus {
+  logic = (!Cdc14lowL_Nucleus & Cdc14lowL_Nucleolus & !Net1A_Nucleolus) | (Cdc14lowL_Nucleus & !Net1A_Nucleolus);
+  rate_up = @logic ? $u_Cdc14lowL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowL_Nucleus;
+}
+
+Node Cdc14highL_Nucleus {
+  logic = (Cdc14lowL_Nucleus & !Net1A_Nucleolus);
+  rate_up = @logic ? $u_Cdc14highL_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highL_Nucleus;
+}
+
+Node Net1L_Nucleus {
+  logic = (Net1L_Nucleus);
+  rate_up = @logic ? $u_Net1L_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Net1L_Nucleus;
+}
+
+Node Spo12L_Nucleolus {
+  logic = (Spo12L_Nucleolus);
+  rate_up = @logic ? $u_Spo12L_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Spo12L_Nucleolus;
+}
+
+Node Fob1L_Nucleolus {
+  logic = (Fob1L_Nucleolus);
+  rate_up = @logic ? $u_Fob1L_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Fob1L_Nucleolus;
+}
+
+Node Hit1L_Nucleolus {
+  logic = (Hit1L_Nucleolus);
+  rate_up = @logic ? $u_Hit1L_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Hit1L_Nucleolus;
+}
+
+Node Rsa1L_Nucleolus {
+  logic = (Rsa1L_Nucleolus);
+  rate_up = @logic ? $u_Rsa1L_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Rsa1L_Nucleolus;
+}
+
+Node Net1L_Nucleolus {
+  logic = (Net1L_Nucleolus);
+  rate_up = @logic ? $u_Net1L_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Net1L_Nucleolus;
+}
+
+Node Cdc14lowL_Nucleolus {
+  logic = (!Cdc14lowL_Nucleus);
+  rate_up = @logic ? $u_Cdc14lowL_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowL_Nucleolus;
+}
+
+Node Cdc14highL_Nucleolus {
+  logic = (Cdc14lowL_Nucleolus);
+  rate_up = @logic ? $u_Cdc14highL_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highL_Nucleolus;
+}
+
+Node Kin4L_mSPB {
+  logic = (Kin4L_Cytoplasm & !Lte1A_Cytoplasm & PP2ARts1A_Cytoplasm & Spc72A_mSPB);
+  rate_up = @logic ? $u_Kin4L_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Kin4L_mSPB;
+}
+
+Node Cdc5L_mSPB {
+  logic = (Bub2lowL_mSPB & Bfa1lowL_mSPB & APCCdc20A_Cytoplasm);
+  rate_up = @logic ? $u_Cdc5L_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc5L_mSPB;
+}
+
+Node Nud1L_mSPB {
+  logic = (Nud1L_mSPB);
+  rate_up = @logic ? $u_Nud1L_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Nud1L_mSPB;
+}
+
+Node Spc72L_mSPB {
+  logic = (Spc72L_mSPB);
+  rate_up = @logic ? $u_Spc72L_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Spc72L_mSPB;
+}
+
+Node CDKlowL_mSPB {
+  logic = (CDKlowL_Cytoplasm & Nud1A_mSPB & !Dbf2A_mSPB & !Mob1A_mSPB);
+  rate_up = @logic ? $u_CDKlowL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_CDKlowL_mSPB;
+}
+
+Node Cdc14lowL_mSPB {
+  logic = (Cdc14lowL_Cytoplasm & Bub2highL_mSPB & Bfa1highL_mSPB);
+  rate_up = @logic ? $u_Cdc14lowL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowL_mSPB;
+}
+
+Node Bub2highL_mSPB {
+  logic = (Bub2highL_Cytoplasm & Bfa1highL_mSPB & Bub2lowL_mSPB);
+  rate_up = @logic ? $u_Bub2highL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2highL_mSPB;
+}
+
+Node Bfa1highL_mSPB {
+  logic = (Bfa1highL_Cytoplasm & !Nud1L_mSPB & Bub2highL_mSPB & Bfa1lowL_mSPB & !Kin4A_mSPB) | (Bfa1highL_Cytoplasm & Nud1L_mSPB & Bfa1lowL_mSPB & !Bmh1A_Cytoplasm) | (Bfa1highL_Cytoplasm & Nud1L_mSPB & Bfa1lowL_mSPB & Bmh1A_Cytoplasm & !Kin4A_mSPB);
+  rate_up = @logic ? $u_Bfa1highL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highL_mSPB;
+}
+
+Node Tem1lowL_mSPB {
+  logic = (!Tem1lowL_Cytoplasm & Tem1highA_Cytoplasm) | (Tem1lowL_Cytoplasm & !Nud1L_mSPB & Tem1highA_Cytoplasm) | (Tem1lowL_Cytoplasm & Nud1L_mSPB & !Bub2highL_mSPB & Tem1highA_Cytoplasm) | (Tem1lowL_Cytoplasm & Nud1L_mSPB & Bub2highL_mSPB & !Bfa1highL_mSPB & Tem1highA_Cytoplasm) | (Tem1lowL_Cytoplasm & Nud1L_mSPB & Bub2highL_mSPB & Bfa1highL_mSPB);
+  rate_up = @logic ? $u_Tem1lowL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowL_mSPB;
+}
+
+Node Bub2lowL_mSPB {
+  logic = (Bub2lowL_Cytoplasm & Nud1L_mSPB);
+  rate_up = @logic ? $u_Bub2lowL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowL_mSPB;
+}
+
+Node Bfa1lowL_mSPB {
+  logic = (Bfa1lowL_Cytoplasm & Nud1L_mSPB);
+  rate_up = @logic ? $u_Bfa1lowL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowL_mSPB;
+}
+
+Node Tem1highL_mSPB {
+  logic = (Tem1lowL_mSPB & Tem1highA_Cytoplasm);
+  rate_up = @logic ? $u_Tem1highL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1highL_mSPB;
+}
+
+Node Dbf2L_mSPB {
+  logic = (Dbf2L_Cytoplasm & Mob1L_mSPB & Nud1A_mSPB);
+  rate_up = @logic ? $u_Dbf2L_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Dbf2L_mSPB;
+}
+
+Node Mob1L_mSPB {
+  logic = (Mob1L_Cytoplasm & Cdc15highL_mSPB & !CDKhighA_Cytoplasm & Nud1A_mSPB) | (Mob1L_Cytoplasm & Cdc15highL_mSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & Nud1A_mSPB & Tem1highA_mSPB) | (Mob1L_Cytoplasm & Cdc15highL_mSPB & CDKhighA_Cytoplasm & Cdc14highA_Cytoplasm & Nud1A_mSPB);
+  rate_up = @logic ? $u_Mob1L_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Mob1L_mSPB;
+}
+
+Node Cdc15lowL_mSPB {
+  logic = (Cdc15lowL_Cytoplasm & Nud1L_mSPB & !CDKlowL_mSPB & !CDKhighA_Cytoplasm) | (Cdc15lowL_Cytoplasm & Nud1L_mSPB & !CDKlowL_mSPB & CDKhighA_Cytoplasm & !Cdc14lowA_mSPB & Tem1highA_mSPB) | (Cdc15lowL_Cytoplasm & Nud1L_mSPB & !CDKlowL_mSPB & CDKhighA_Cytoplasm & Cdc14lowA_mSPB) | (Cdc15lowL_Cytoplasm & Nud1L_mSPB & CDKlowL_mSPB & !Cdc14lowA_mSPB & Tem1highA_mSPB) | (Cdc15lowL_Cytoplasm & Nud1L_mSPB & CDKlowL_mSPB & Cdc14lowA_mSPB);
+  rate_up = @logic ? $u_Cdc15lowL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowL_mSPB;
+}
+
+Node Cdc15highL_mSPB {
+  logic = (Nud1L_mSPB & Cdc15lowL_mSPB & !CDKlowA_Cytoplasm & !Cdc5A_mSPB & !Tem1lowA_mSPB & Tem1highA_mSPB) | (Nud1L_mSPB & Cdc15lowL_mSPB & !CDKlowA_Cytoplasm & !Cdc5A_mSPB & Tem1lowA_mSPB) | (Nud1L_mSPB & Cdc15lowL_mSPB & !CDKlowA_Cytoplasm & Cdc5A_mSPB) | (Nud1L_mSPB & Cdc15lowL_mSPB & CDKlowA_Cytoplasm & !Cdc5A_mSPB & Tem1highA_mSPB) | (Nud1L_mSPB & Cdc15lowL_mSPB & CDKlowA_Cytoplasm & Cdc5A_mSPB & !Tem1lowA_mSPB & Tem1highA_mSPB) | (Nud1L_mSPB & Cdc15lowL_mSPB & CDKlowA_Cytoplasm & Cdc5A_mSPB & Tem1lowA_mSPB);
+  rate_up = @logic ? $u_Cdc15highL_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highL_mSPB;
+}
+
+Node Kin4L_dSPB {
+  logic = (!Kin4L_Cytoplasm & Kin4L_Bud & !Lte1A_Bud & PP2ARts1A_Bud & Spc72A_dSPB & SpindleAlign) | (Kin4L_Cytoplasm & !Kin4L_Bud & !Lte1A_Cytoplasm & PP2ARts1A_Cytoplasm & Spc72A_dSPB & !SpindleAlign) | (Kin4L_Cytoplasm & Kin4L_Bud & !Lte1A_Cytoplasm & !PP2ARts1A_Cytoplasm & !Lte1A_Bud & PP2ARts1A_Bud & Spc72A_dSPB & SpindleAlign) | (Kin4L_Cytoplasm & Kin4L_Bud & !Lte1A_Cytoplasm & PP2ARts1A_Cytoplasm & !Lte1A_Bud & !PP2ARts1A_Bud & Spc72A_dSPB & !SpindleAlign) | (Kin4L_Cytoplasm & Kin4L_Bud & !Lte1A_Cytoplasm & PP2ARts1A_Cytoplasm & !Lte1A_Bud & PP2ARts1A_Bud & Spc72A_dSPB) | (Kin4L_Cytoplasm & Kin4L_Bud & !Lte1A_Cytoplasm & PP2ARts1A_Cytoplasm & Lte1A_Bud & Spc72A_dSPB & !SpindleAlign) | (Kin4L_Cytoplasm & Kin4L_Bud & Lte1A_Cytoplasm & !Lte1A_Bud & PP2ARts1A_Bud & Spc72A_dSPB & SpindleAlign);
+  rate_up = @logic ? $u_Kin4L_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Kin4L_dSPB;
+}
+
+Node Cdc5L_dSPB {
+  logic = (Bub2lowL_dSPB & Bfa1lowL_dSPB & !APCCdc20A_Cytoplasm & APCCdc20A_Bud & SpindleAlign) | (Bub2lowL_dSPB & Bfa1lowL_dSPB & APCCdc20A_Cytoplasm & !APCCdc20A_Bud & !SpindleAlign) | (Bub2lowL_dSPB & Bfa1lowL_dSPB & APCCdc20A_Cytoplasm & APCCdc20A_Bud);
+  rate_up = @logic ? $u_Cdc5L_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc5L_dSPB;
+}
+
+Node Nud1L_dSPB {
+  logic = (Nud1L_dSPB);
+  rate_up = @logic ? $u_Nud1L_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Nud1L_dSPB;
+}
+
+Node Spc72L_dSPB {
+  logic = (Spc72L_dSPB);
+  rate_up = @logic ? $u_Spc72L_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Spc72L_dSPB;
+}
+
+Node CDKlowL_dSPB {
+  logic = (!CDKlowL_Cytoplasm & CDKlowL_Bud & Nud1A_dSPB & !Dbf2A_dSPB & !Mob1A_dSPB & SpindleAlign) | (CDKlowL_Cytoplasm & !CDKlowL_Bud & Nud1A_dSPB & !Dbf2A_dSPB & !Mob1A_dSPB & !SpindleAlign) | (CDKlowL_Cytoplasm & CDKlowL_Bud & Nud1A_dSPB & !Dbf2A_dSPB & !Mob1A_dSPB);
+  rate_up = @logic ? $u_CDKlowL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_CDKlowL_dSPB;
+}
+
+Node Cdc14lowL_dSPB {
+  logic = (!Cdc14lowL_Cytoplasm & Cdc14lowL_Bud & Bub2highL_dSPB & Bfa1highL_dSPB & SpindleAlign) | (Cdc14lowL_Cytoplasm & !Cdc14lowL_Bud & Bub2highL_dSPB & Bfa1highL_dSPB & !SpindleAlign) | (Cdc14lowL_Cytoplasm & Cdc14lowL_Bud & Bub2highL_dSPB & Bfa1highL_dSPB);
+  rate_up = @logic ? $u_Cdc14lowL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowL_dSPB;
+}
+
+Node Bub2highL_dSPB {
+  logic = (!Bub2highL_Cytoplasm & Bub2highL_Bud & Bfa1highL_dSPB & Bub2lowL_dSPB & SpindleAlign) | (Bub2highL_Cytoplasm & !Bub2highL_Bud & Bfa1highL_dSPB & Bub2lowL_dSPB & !SpindleAlign) | (Bub2highL_Cytoplasm & Bub2highL_Bud & Bfa1highL_dSPB & Bub2lowL_dSPB);
+  rate_up = @logic ? $u_Bub2highL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2highL_dSPB;
+}
+
+Node Bfa1highL_dSPB {
+  logic = (!Bfa1highL_Cytoplasm & Bfa1highL_Bud & !Nud1L_dSPB & Bub2highL_dSPB & Bfa1lowL_dSPB & !Kin4A_dSPB & SpindleAlign) | (!Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & !Bmh1A_Bud & SpindleAlign) | (!Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & Bmh1A_Bud & !Kin4A_dSPB & SpindleAlign) | (Bfa1highL_Cytoplasm & !Bfa1highL_Bud & !Nud1L_dSPB & Bub2highL_dSPB & Bfa1lowL_dSPB & !Kin4A_dSPB & !SpindleAlign) | (Bfa1highL_Cytoplasm & !Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & !Bmh1A_Cytoplasm & !SpindleAlign) | (Bfa1highL_Cytoplasm & !Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & Bmh1A_Cytoplasm & !Kin4A_dSPB & !SpindleAlign) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & !Nud1L_dSPB & Bub2highL_dSPB & Bfa1lowL_dSPB & !Kin4A_dSPB) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & !Bmh1A_Cytoplasm & !Bmh1A_Bud) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & !Bmh1A_Cytoplasm & Bmh1A_Bud & !Kin4A_dSPB) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & !Bmh1A_Cytoplasm & Bmh1A_Bud & Kin4A_dSPB & !SpindleAlign) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & Bmh1A_Cytoplasm & !Bmh1A_Bud & !Kin4A_dSPB) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & Bmh1A_Cytoplasm & !Bmh1A_Bud & Kin4A_dSPB & SpindleAlign) | (Bfa1highL_Cytoplasm & Bfa1highL_Bud & Nud1L_dSPB & Bfa1lowL_dSPB & Bmh1A_Cytoplasm & Bmh1A_Bud & !Kin4A_dSPB);
+  rate_up = @logic ? $u_Bfa1highL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highL_dSPB;
+}
+
+Node Tem1lowL_dSPB {
+  logic = (!Tem1lowL_Cytoplasm & !Tem1lowL_Bud & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (!Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (!Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Tem1highA_Cytoplasm & Tem1highA_Bud) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & !Nud1L_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & !Nud1L_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & !Nud1L_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & Bfa1highL_dSPB & !Tem1highA_Cytoplasm & SpindleAlign) | (!Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & Bfa1highL_dSPB & Tem1highA_Cytoplasm) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & !Nud1L_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & !Nud1L_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & !Nud1L_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & Bfa1highL_dSPB & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & !Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & Bfa1highL_dSPB & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & !Nud1L_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & !Nud1L_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & !Nud1L_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & !Bub2highL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & !Bfa1highL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud) | (Tem1lowL_Cytoplasm & Tem1lowL_Bud & Nud1L_dSPB & Bub2highL_dSPB & Bfa1highL_dSPB);
+  rate_up = @logic ? $u_Tem1lowL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowL_dSPB;
+}
+
+Node Bub2lowL_dSPB {
+  logic = (!Bub2lowL_Cytoplasm & Bub2lowL_Bud & Nud1L_dSPB & SpindleAlign) | (Bub2lowL_Cytoplasm & !Bub2lowL_Bud & Nud1L_dSPB & !SpindleAlign) | (Bub2lowL_Cytoplasm & Bub2lowL_Bud & Nud1L_dSPB);
+  rate_up = @logic ? $u_Bub2lowL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowL_dSPB;
+}
+
+Node Bfa1lowL_dSPB {
+  logic = (!Bfa1lowL_Cytoplasm & Bfa1lowL_Bud & Nud1L_dSPB & SpindleAlign) | (Bfa1lowL_Cytoplasm & !Bfa1lowL_Bud & Nud1L_dSPB & !SpindleAlign) | (Bfa1lowL_Cytoplasm & Bfa1lowL_Bud & Nud1L_dSPB);
+  rate_up = @logic ? $u_Bfa1lowL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowL_dSPB;
+}
+
+Node Tem1highL_dSPB {
+  logic = (Tem1lowL_dSPB & !Tem1highA_Cytoplasm & Tem1highA_Bud & SpindleAlign) | (Tem1lowL_dSPB & Tem1highA_Cytoplasm & !Tem1highA_Bud & !SpindleAlign) | (Tem1lowL_dSPB & Tem1highA_Cytoplasm & Tem1highA_Bud);
+  rate_up = @logic ? $u_Tem1highL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1highL_dSPB;
+}
+
+Node Dbf2L_dSPB {
+  logic = (!Dbf2L_Cytoplasm & Dbf2L_Bud & Mob1L_dSPB & Nud1A_dSPB & SpindleAlign) | (Dbf2L_Cytoplasm & !Dbf2L_Bud & Mob1L_dSPB & Nud1A_dSPB & !SpindleAlign) | (Dbf2L_Cytoplasm & Dbf2L_Bud & Mob1L_dSPB & Nud1A_dSPB);
+  rate_up = @logic ? $u_Dbf2L_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Dbf2L_dSPB;
+}
+
+Node Mob1L_dSPB {
+  logic = (!Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & !CDKhighA_Bud & Nud1A_dSPB & SpindleAlign) | (!Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Bud & !Cdc14highA_Bud & Nud1A_dSPB & Tem1highA_dSPB & SpindleAlign) | (!Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Bud & Cdc14highA_Bud & Nud1A_dSPB & SpindleAlign) | (Mob1L_Cytoplasm & !Mob1L_Bud & Cdc15highL_dSPB & !CDKhighA_Cytoplasm & Nud1A_dSPB & !SpindleAlign) | (Mob1L_Cytoplasm & !Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & Nud1A_dSPB & Tem1highA_dSPB & !SpindleAlign) | (Mob1L_Cytoplasm & !Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & Cdc14highA_Cytoplasm & Nud1A_dSPB & !SpindleAlign) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & !CDKhighA_Cytoplasm & !CDKhighA_Bud & Nud1A_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & !CDKhighA_Cytoplasm & CDKhighA_Bud & !Cdc14highA_Bud & Nud1A_dSPB & !Tem1highA_dSPB & !SpindleAlign) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & !CDKhighA_Cytoplasm & CDKhighA_Bud & !Cdc14highA_Bud & Nud1A_dSPB & Tem1highA_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & !CDKhighA_Cytoplasm & CDKhighA_Bud & Cdc14highA_Bud & Nud1A_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & !CDKhighA_Bud & Nud1A_dSPB & !Tem1highA_dSPB & SpindleAlign) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & !CDKhighA_Bud & Nud1A_dSPB & Tem1highA_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & CDKhighA_Bud & !Cdc14highA_Bud & Nud1A_dSPB & Tem1highA_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & CDKhighA_Bud & Cdc14highA_Bud & Nud1A_dSPB & !Tem1highA_dSPB & SpindleAlign) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & !Cdc14highA_Cytoplasm & CDKhighA_Bud & Cdc14highA_Bud & Nud1A_dSPB & Tem1highA_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & Cdc14highA_Cytoplasm & !CDKhighA_Bud & Nud1A_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & Cdc14highA_Cytoplasm & CDKhighA_Bud & !Cdc14highA_Bud & Nud1A_dSPB & !Tem1highA_dSPB & !SpindleAlign) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & Cdc14highA_Cytoplasm & CDKhighA_Bud & !Cdc14highA_Bud & Nud1A_dSPB & Tem1highA_dSPB) | (Mob1L_Cytoplasm & Mob1L_Bud & Cdc15highL_dSPB & CDKhighA_Cytoplasm & Cdc14highA_Cytoplasm & CDKhighA_Bud & Cdc14highA_Bud & Nud1A_dSPB);
+  rate_up = @logic ? $u_Mob1L_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Mob1L_dSPB;
+}
+
+Node Cdc15lowL_dSPB {
+  logic = (!Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & !CDKhighA_Bud & SpindleAlign) | (!Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Bud & !Cdc14lowA_dSPB & Tem1highA_dSPB & SpindleAlign) | (!Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Bud & Cdc14lowA_dSPB & SpindleAlign) | (!Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & CDKlowL_dSPB & !Cdc14lowA_dSPB & Tem1highA_dSPB & SpindleAlign) | (!Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & CDKlowL_dSPB & Cdc14lowA_dSPB & SpindleAlign) | (Cdc15lowL_Cytoplasm & !Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & !CDKhighA_Cytoplasm & !SpindleAlign) | (Cdc15lowL_Cytoplasm & !Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & !Cdc14lowA_dSPB & Tem1highA_dSPB & !SpindleAlign) | (Cdc15lowL_Cytoplasm & !Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & Cdc14lowA_dSPB & !SpindleAlign) | (Cdc15lowL_Cytoplasm & !Cdc15lowL_Bud & Nud1L_dSPB & CDKlowL_dSPB & !Cdc14lowA_dSPB & Tem1highA_dSPB & !SpindleAlign) | (Cdc15lowL_Cytoplasm & !Cdc15lowL_Bud & Nud1L_dSPB & CDKlowL_dSPB & Cdc14lowA_dSPB & !SpindleAlign) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & !CDKhighA_Cytoplasm & !CDKhighA_Bud) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & !CDKhighA_Cytoplasm & CDKhighA_Bud & !Cdc14lowA_dSPB & !Tem1highA_dSPB & !SpindleAlign) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & !CDKhighA_Cytoplasm & CDKhighA_Bud & !Cdc14lowA_dSPB & Tem1highA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & !CDKhighA_Cytoplasm & CDKhighA_Bud & Cdc14lowA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & !CDKhighA_Bud & !Cdc14lowA_dSPB & !Tem1highA_dSPB & SpindleAlign) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & !CDKhighA_Bud & !Cdc14lowA_dSPB & Tem1highA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & !CDKhighA_Bud & Cdc14lowA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & CDKhighA_Bud & !Cdc14lowA_dSPB & Tem1highA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & !CDKlowL_dSPB & CDKhighA_Cytoplasm & CDKhighA_Bud & Cdc14lowA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & CDKlowL_dSPB & !Cdc14lowA_dSPB & Tem1highA_dSPB) | (Cdc15lowL_Cytoplasm & Cdc15lowL_Bud & Nud1L_dSPB & CDKlowL_dSPB & Cdc14lowA_dSPB);
+  rate_up = @logic ? $u_Cdc15lowL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowL_dSPB;
+}
+
+Node Cdc15highL_dSPB {
+  logic = (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & !CDKlowA_Bud & !Cdc5A_dSPB & !Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & !CDKlowA_Bud & !Cdc5A_dSPB & Tem1lowA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & !CDKlowA_Bud & Cdc5A_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & !Cdc5A_dSPB & !Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & !Cdc5A_dSPB & Tem1lowA_dSPB & !Tem1highA_dSPB & !SpindleAlign) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & !Cdc5A_dSPB & Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & Cdc5A_dSPB & !Tem1lowA_dSPB & !Tem1highA_dSPB & !SpindleAlign) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & Cdc5A_dSPB & !Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & Cdc5A_dSPB & Tem1lowA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & !Cdc5A_dSPB & !Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & !Cdc5A_dSPB & Tem1lowA_dSPB & !Tem1highA_dSPB & SpindleAlign) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & !Cdc5A_dSPB & Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & Cdc5A_dSPB & !Tem1lowA_dSPB & !Tem1highA_dSPB & SpindleAlign) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & Cdc5A_dSPB & !Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & Cdc5A_dSPB & Tem1lowA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & CDKlowA_Bud & !Cdc5A_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & CDKlowA_Bud & Cdc5A_dSPB & !Tem1lowA_dSPB & Tem1highA_dSPB) | (Nud1L_dSPB & Cdc15lowL_dSPB & CDKlowA_Cytoplasm & CDKlowA_Bud & Cdc5A_dSPB & Tem1lowA_dSPB);
+  rate_up = @logic ? $u_Cdc15highL_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highL_dSPB;
+}
+
+Node Lte1A_Cytoplasm {
+  logic = (Lte1L_Cytoplasm & Cla4A_Cytoplasm);
+  rate_up = @logic ? $u_Lte1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Lte1A_Cytoplasm;
+}
+
+Node Mob1A_Cytoplasm {
+  logic = (Mob1L_Cytoplasm);
+  rate_up = @logic ? $u_Mob1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Mob1A_Cytoplasm;
+}
+
+Node Elm1A_Cytoplasm {
+  logic = (Elm1L_Cytoplasm);
+  rate_up = @logic ? $u_Elm1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Elm1A_Cytoplasm;
+}
+
+Node Dbf2A_Cytoplasm {
+  logic = (Dbf2L_Cytoplasm & Dbf2A_mSPB);
+  rate_up = @logic ? $u_Dbf2A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Dbf2A_Cytoplasm;
+}
+
+Node Kin4A_Cytoplasm {
+  logic = (Kin4L_Cytoplasm & !Lte1A_Cytoplasm & Elm1A_Cytoplasm);
+  rate_up = @logic ? $u_Kin4A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Kin4A_Cytoplasm;
+}
+
+Node Cla4A_Cytoplasm {
+  logic = (Cla4L_Cytoplasm);
+  rate_up = @logic ? $u_Cla4A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cla4A_Cytoplasm;
+}
+
+Node Nud1A_Cytoplasm {
+  logic = (Nud1L_Cytoplasm);
+  rate_up = @logic ? $u_Nud1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Nud1A_Cytoplasm;
+}
+
+Node Spc72A_Cytoplasm {
+  logic = (Spc72L_Cytoplasm);
+  rate_up = @logic ? $u_Spc72A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Spc72A_Cytoplasm;
+}
+
+Node PP2ARts1A_Cytoplasm {
+  logic = (PP2ARts1L_Cytoplasm);
+  rate_up = @logic ? $u_PP2ARts1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_PP2ARts1A_Cytoplasm;
+}
+
+Node Amn1A_Cytoplasm {
+  logic = (Amn1L_Cytoplasm);
+  rate_up = @logic ? $u_Amn1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Amn1A_Cytoplasm;
+}
+
+Node Bmh1A_Cytoplasm {
+  logic = (Bmh1L_Cytoplasm);
+  rate_up = @logic ? $u_Bmh1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bmh1A_Cytoplasm;
+}
+
+Node PolarityA_Cytoplasm {
+  logic = (PolarityL_Cytoplasm);
+  rate_up = @logic ? $u_PolarityA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_PolarityA_Cytoplasm;
+}
+
+Node Bfa1highA_Cytoplasm {
+  logic = (Bfa1highL_Cytoplasm & !Lte1A_Cytoplasm & Bfa1lowA_Cytoplasm & !Cdc5A_Cytoplasm) | (Bfa1highL_Cytoplasm & !Lte1A_Cytoplasm & Bfa1lowA_Cytoplasm & Cdc5A_Cytoplasm & CDKlowA_Cytoplasm & !Cdc14lowA_Cytoplasm);
+  rate_up = @logic ? $u_Bfa1highA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highA_Cytoplasm;
+}
+
+Node Bfa1lowA_Cytoplasm {
+  logic = (Bfa1lowL_Cytoplasm);
+  rate_up = @logic ? $u_Bfa1lowA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowA_Cytoplasm;
+}
+
+Node Tem1lowA_Cytoplasm {
+  logic = (Tem1lowL_Cytoplasm & !Amn1A_Cytoplasm) | (Tem1lowL_Cytoplasm & Amn1A_Cytoplasm & !Bfa1highA_Cytoplasm) | (Tem1lowL_Cytoplasm & Amn1A_Cytoplasm & Bfa1highA_Cytoplasm & !Bub2highA_Cytoplasm);
+  rate_up = @logic ? $u_Tem1lowA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowA_Cytoplasm;
+}
+
+Node Tem1highA_Cytoplasm {
+  logic = (Tem1highL_Cytoplasm & !Amn1A_Cytoplasm & Tem1lowA_Cytoplasm) | (Tem1highL_Cytoplasm & Amn1A_Cytoplasm & !Bfa1lowA_Cytoplasm & Tem1lowA_Cytoplasm) | (Tem1highL_Cytoplasm & Amn1A_Cytoplasm & Bfa1lowA_Cytoplasm & Tem1lowA_Cytoplasm & !Bub2lowA_Cytoplasm);
+  rate_up = @logic ? $u_Tem1highA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Tem1highA_Cytoplasm;
+}
+
+Node Cdc15lowA_Cytoplasm {
+  logic = (Cdc15lowL_Cytoplasm);
+  rate_up = @logic ? $u_Cdc15lowA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowA_Cytoplasm;
+}
+
+Node Cdc15highA_Cytoplasm {
+  logic = (Cdc15highL_Cytoplasm & Cdc15lowA_Cytoplasm);
+  rate_up = @logic ? $u_Cdc15highA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highA_Cytoplasm;
+}
+
+Node Bub2lowA_Cytoplasm {
+  logic = (Bub2lowL_Cytoplasm);
+  rate_up = @logic ? $u_Bub2lowA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowA_Cytoplasm;
+}
+
+Node Bub2highA_Cytoplasm {
+  logic = (Bub2highL_Cytoplasm & Bub2lowA_Cytoplasm);
+  rate_up = @logic ? $u_Bub2highA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Bub2highA_Cytoplasm;
+}
+
+Node Rsa1A_Cytoplasm {
+  logic = (Rsa1L_Cytoplasm);
+  rate_up = @logic ? $u_Rsa1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Rsa1A_Cytoplasm;
+}
+
+Node Hit1A_Cytoplasm {
+  logic = (Hit1L_Cytoplasm);
+  rate_up = @logic ? $u_Hit1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Hit1A_Cytoplasm;
+}
+
+Node APCCdc20A_Cytoplasm {
+  logic = (APCCdc20L_Cytoplasm);
+  rate_up = @logic ? $u_APCCdc20A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_APCCdc20A_Cytoplasm;
+}
+
+Node Pds1A_Cytoplasm {
+  logic = (Pds1L_Cytoplasm & !APCCdc20A_Cytoplasm);
+  rate_up = @logic ? $u_Pds1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Pds1A_Cytoplasm;
+}
+
+Node Esp1A_Cytoplasm {
+  logic = (Esp1L_Cytoplasm & !Pds1A_Cytoplasm);
+  rate_up = @logic ? $u_Esp1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Esp1A_Cytoplasm;
+}
+
+Node Slk19A_Cytoplasm {
+  logic = (Slk19L_Cytoplasm & Esp1A_Cytoplasm);
+  rate_up = @logic ? $u_Slk19A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Slk19A_Cytoplasm;
+}
+
+Node Zds1A_Cytoplasm {
+  logic = (Zds1L_Cytoplasm & Esp1A_Cytoplasm & Slk19A_Cytoplasm);
+  rate_up = @logic ? $u_Zds1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Zds1A_Cytoplasm;
+}
+
+Node Cdc5A_Cytoplasm {
+  logic = (Cdc5L_Cytoplasm & CDKlowA_Cytoplasm);
+  rate_up = @logic ? $u_Cdc5A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc5A_Cytoplasm;
+}
+
+Node PP2ACdc55A_Cytoplasm {
+  logic = (PP2ACdc55L_Cytoplasm);
+  rate_up = @logic ? $u_PP2ACdc55A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_PP2ACdc55A_Cytoplasm;
+}
+
+Node CDKlowA_Cytoplasm {
+  logic = (CDKlowL_Cytoplasm);
+  rate_up = @logic ? $u_CDKlowA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_CDKlowA_Cytoplasm;
+}
+
+Node CDKhighA_Cytoplasm {
+  logic = (CDKhighL_Cytoplasm);
+  rate_up = @logic ? $u_CDKhighA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_CDKhighA_Cytoplasm;
+}
+
+Node Fob1A_Cytoplasm {
+  logic = (Fob1L_Cytoplasm & !Spo12A_Cytoplasm);
+  rate_up = @logic ? $u_Fob1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Fob1A_Cytoplasm;
+}
+
+Node Spo12A_Cytoplasm {
+  logic = (Spo12L_Cytoplasm);
+  rate_up = @logic ? $u_Spo12A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Spo12A_Cytoplasm;
+}
+
+Node SACA_Cytoplasm {
+  logic = (SACL_Cytoplasm);
+  rate_up = @logic ? $u_SACA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_SACA_Cytoplasm;
+}
+
+Node Cdc14lowA_Cytoplasm {
+  logic = (Cdc14lowL_Cytoplasm);
+  rate_up = @logic ? $u_Cdc14lowA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowA_Cytoplasm;
+}
+
+Node Cdc14highA_Cytoplasm {
+  logic = (Cdc14highL_Cytoplasm);
+  rate_up = @logic ? $u_Cdc14highA_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highA_Cytoplasm;
+}
+
+Node Net1A_Cytoplasm {
+  logic = (Net1L_Cytoplasm);
+  rate_up = @logic ? $u_Net1A_Cytoplasm : 0;
+  rate_down = @logic ? 0 : $d_Net1A_Cytoplasm;
+}
+
+Node Lte1A_Bud {
+  logic = (Lte1L_Bud & Cla4A_Bud);
+  rate_up = @logic ? $u_Lte1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Lte1A_Bud;
+}
+
+Node Mob1A_Bud {
+  logic = (Mob1L_Bud);
+  rate_up = @logic ? $u_Mob1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Mob1A_Bud;
+}
+
+Node Elm1A_Bud {
+  logic = (Elm1L_Bud);
+  rate_up = @logic ? $u_Elm1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Elm1A_Bud;
+}
+
+Node Dbf2A_Bud {
+  logic = (Dbf2L_Bud & Dbf2A_dSPB);
+  rate_up = @logic ? $u_Dbf2A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Dbf2A_Bud;
+}
+
+Node Kin4A_Bud {
+  logic = (Kin4L_Bud & !Lte1A_Bud & Elm1A_Bud);
+  rate_up = @logic ? $u_Kin4A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Kin4A_Bud;
+}
+
+Node Cla4A_Bud {
+  logic = (Cla4L_Bud);
+  rate_up = @logic ? $u_Cla4A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cla4A_Bud;
+}
+
+Node Nud1A_Bud {
+  logic = (Nud1L_Bud);
+  rate_up = @logic ? $u_Nud1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Nud1A_Bud;
+}
+
+Node Spc72A_Bud {
+  logic = (Spc72L_Bud);
+  rate_up = @logic ? $u_Spc72A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Spc72A_Bud;
+}
+
+Node PP2ARts1A_Bud {
+  logic = (PP2ARts1L_Bud);
+  rate_up = @logic ? $u_PP2ARts1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_PP2ARts1A_Bud;
+}
+
+Node Amn1A_Bud {
+  logic = (Amn1L_Bud);
+  rate_up = @logic ? $u_Amn1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Amn1A_Bud;
+}
+
+Node Bmh1A_Bud {
+  logic = (Bmh1L_Bud);
+  rate_up = @logic ? $u_Bmh1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bmh1A_Bud;
+}
+
+Node PolarityA_Bud {
+  logic = (PolarityL_Bud);
+  rate_up = @logic ? $u_PolarityA_Bud : 0;
+  rate_down = @logic ? 0 : $d_PolarityA_Bud;
+}
+
+Node Bfa1highA_Bud {
+  logic = (Bfa1highL_Bud & !Lte1A_Bud & Bfa1lowA_Bud & !Cdc5A_Bud) | (Bfa1highL_Bud & !Lte1A_Bud & Bfa1lowA_Bud & Cdc5A_Bud & CDKlowA_Bud & !Cdc14lowA_Bud);
+  rate_up = @logic ? $u_Bfa1highA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highA_Bud;
+}
+
+Node Bfa1lowA_Bud {
+  logic = (Bfa1lowL_Bud);
+  rate_up = @logic ? $u_Bfa1lowA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowA_Bud;
+}
+
+Node Tem1lowA_Bud {
+  logic = (Tem1lowL_Bud & !Amn1A_Bud) | (Tem1lowL_Bud & Amn1A_Bud & !Bfa1highA_Bud) | (Tem1lowL_Bud & Amn1A_Bud & Bfa1highA_Bud & !Bub2highA_Bud);
+  rate_up = @logic ? $u_Tem1lowA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowA_Bud;
+}
+
+Node Tem1highA_Bud {
+  logic = (Tem1highL_Bud & !Amn1A_Bud & Tem1lowA_Bud) | (Tem1highL_Bud & Amn1A_Bud & !Bfa1lowA_Bud & Tem1lowA_Bud) | (Tem1highL_Bud & Amn1A_Bud & Bfa1lowA_Bud & Tem1lowA_Bud & !Bub2lowA_Bud);
+  rate_up = @logic ? $u_Tem1highA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Tem1highA_Bud;
+}
+
+Node Cdc15lowA_Bud {
+  logic = (Cdc15lowL_Bud);
+  rate_up = @logic ? $u_Cdc15lowA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowA_Bud;
+}
+
+Node Cdc15highA_Bud {
+  logic = (Cdc15highL_Bud & Cdc15lowA_Bud);
+  rate_up = @logic ? $u_Cdc15highA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highA_Bud;
+}
+
+Node Bub2lowA_Bud {
+  logic = (Bub2lowL_Bud);
+  rate_up = @logic ? $u_Bub2lowA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowA_Bud;
+}
+
+Node Bub2highA_Bud {
+  logic = (Bub2highL_Bud & Bub2lowA_Bud);
+  rate_up = @logic ? $u_Bub2highA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Bub2highA_Bud;
+}
+
+Node Rsa1A_Bud {
+  logic = (Rsa1L_Bud);
+  rate_up = @logic ? $u_Rsa1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Rsa1A_Bud;
+}
+
+Node Hit1A_Bud {
+  logic = (Hit1L_Bud);
+  rate_up = @logic ? $u_Hit1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Hit1A_Bud;
+}
+
+Node APCCdc20A_Bud {
+  logic = (APCCdc20L_Bud);
+  rate_up = @logic ? $u_APCCdc20A_Bud : 0;
+  rate_down = @logic ? 0 : $d_APCCdc20A_Bud;
+}
+
+Node Pds1A_Bud {
+  logic = (Pds1L_Bud & !APCCdc20A_Bud);
+  rate_up = @logic ? $u_Pds1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Pds1A_Bud;
+}
+
+Node Esp1A_Bud {
+  logic = (Esp1L_Bud & !Pds1A_Bud);
+  rate_up = @logic ? $u_Esp1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Esp1A_Bud;
+}
+
+Node Slk19A_Bud {
+  logic = (Slk19L_Bud & Esp1A_Bud);
+  rate_up = @logic ? $u_Slk19A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Slk19A_Bud;
+}
+
+Node Zds1A_Bud {
+  logic = (Zds1L_Bud & Esp1A_Bud & Slk19A_Bud);
+  rate_up = @logic ? $u_Zds1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Zds1A_Bud;
+}
+
+Node Cdc5A_Bud {
+  logic = (Cdc5L_Bud & CDKlowA_Bud);
+  rate_up = @logic ? $u_Cdc5A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc5A_Bud;
+}
+
+Node PP2ACdc55A_Bud {
+  logic = (PP2ACdc55L_Bud);
+  rate_up = @logic ? $u_PP2ACdc55A_Bud : 0;
+  rate_down = @logic ? 0 : $d_PP2ACdc55A_Bud;
+}
+
+Node CDKlowA_Bud {
+  logic = (CDKlowL_Bud);
+  rate_up = @logic ? $u_CDKlowA_Bud : 0;
+  rate_down = @logic ? 0 : $d_CDKlowA_Bud;
+}
+
+Node CDKhighA_Bud {
+  logic = (CDKhighL_Bud);
+  rate_up = @logic ? $u_CDKhighA_Bud : 0;
+  rate_down = @logic ? 0 : $d_CDKhighA_Bud;
+}
+
+Node Fob1A_Bud {
+  logic = (Fob1L_Bud & !Spo12A_Bud);
+  rate_up = @logic ? $u_Fob1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Fob1A_Bud;
+}
+
+Node Spo12A_Bud {
+  logic = (Spo12L_Bud);
+  rate_up = @logic ? $u_Spo12A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Spo12A_Bud;
+}
+
+Node SACA_Bud {
+  logic = (SACL_Bud);
+  rate_up = @logic ? $u_SACA_Bud : 0;
+  rate_down = @logic ? 0 : $d_SACA_Bud;
+}
+
+Node Cdc14lowA_Bud {
+  logic = (Cdc14lowL_Bud);
+  rate_up = @logic ? $u_Cdc14lowA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowA_Bud;
+}
+
+Node Cdc14highA_Bud {
+  logic = (Cdc14highL_Bud);
+  rate_up = @logic ? $u_Cdc14highA_Bud : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highA_Bud;
+}
+
+Node Net1A_Bud {
+  logic = (Net1L_Bud);
+  rate_up = @logic ? $u_Net1A_Bud : 0;
+  rate_down = @logic ? 0 : $d_Net1A_Bud;
+}
+
+Node Lte1A_Nucleus {
+  logic = (Lte1L_Nucleus & Cla4A_Nucleus);
+  rate_up = @logic ? $u_Lte1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Lte1A_Nucleus;
+}
+
+Node Mob1A_Nucleus {
+  logic = (Mob1L_Nucleus);
+  rate_up = @logic ? $u_Mob1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Mob1A_Nucleus;
+}
+
+Node Elm1A_Nucleus {
+  logic = (Elm1L_Nucleus);
+  rate_up = @logic ? $u_Elm1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Elm1A_Nucleus;
+}
+
+Node Dbf2A_Nucleus {
+  logic = (Dbf2L_Nucleus & !Dbf2A_Cytoplasm & Dbf2A_Bud) | (Dbf2L_Nucleus & Dbf2A_Cytoplasm);
+  rate_up = @logic ? $u_Dbf2A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Dbf2A_Nucleus;
+}
+
+Node Kin4A_Nucleus {
+  logic = (Kin4L_Nucleus & !Lte1A_Nucleus & Elm1A_Nucleus);
+  rate_up = @logic ? $u_Kin4A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Kin4A_Nucleus;
+}
+
+Node Cla4A_Nucleus {
+  logic = (Cla4L_Nucleus);
+  rate_up = @logic ? $u_Cla4A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cla4A_Nucleus;
+}
+
+Node Nud1A_Nucleus {
+  logic = (Nud1L_Nucleus);
+  rate_up = @logic ? $u_Nud1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Nud1A_Nucleus;
+}
+
+Node Spc72A_Nucleus {
+  logic = (Spc72L_Nucleus);
+  rate_up = @logic ? $u_Spc72A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Spc72A_Nucleus;
+}
+
+Node PP2ARts1A_Nucleus {
+  logic = (PP2ARts1L_Nucleus);
+  rate_up = @logic ? $u_PP2ARts1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_PP2ARts1A_Nucleus;
+}
+
+Node Amn1A_Nucleus {
+  logic = (Amn1L_Nucleus);
+  rate_up = @logic ? $u_Amn1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Amn1A_Nucleus;
+}
+
+Node Bmh1A_Nucleus {
+  logic = (Bmh1L_Nucleus);
+  rate_up = @logic ? $u_Bmh1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bmh1A_Nucleus;
+}
+
+Node PolarityA_Nucleus {
+  logic = (PolarityL_Nucleus);
+  rate_up = @logic ? $u_PolarityA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_PolarityA_Nucleus;
+}
+
+Node Bfa1highA_Nucleus {
+  logic = (Bfa1highL_Nucleus & !Lte1A_Nucleus & Bfa1lowA_Nucleus & !Cdc5A_Nucleus) | (Bfa1highL_Nucleus & !Lte1A_Nucleus & Bfa1lowA_Nucleus & Cdc5A_Nucleus & CDKlowA_Nucleus & !Cdc14lowA_Nucleus);
+  rate_up = @logic ? $u_Bfa1highA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highA_Nucleus;
+}
+
+Node Bfa1lowA_Nucleus {
+  logic = (Bfa1lowL_Nucleus);
+  rate_up = @logic ? $u_Bfa1lowA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowA_Nucleus;
+}
+
+Node Tem1lowA_Nucleus {
+  logic = (Tem1lowL_Nucleus & !Amn1A_Nucleus) | (Tem1lowL_Nucleus & Amn1A_Nucleus & !Bfa1highA_Nucleus) | (Tem1lowL_Nucleus & Amn1A_Nucleus & Bfa1highA_Nucleus & !Bub2highA_Nucleus);
+  rate_up = @logic ? $u_Tem1lowA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowA_Nucleus;
+}
+
+Node Tem1highA_Nucleus {
+  logic = (Tem1highL_Nucleus & !Amn1A_Nucleus & Tem1lowA_Nucleus) | (Tem1highL_Nucleus & Amn1A_Nucleus & !Bfa1lowA_Nucleus & Tem1lowA_Nucleus) | (Tem1highL_Nucleus & Amn1A_Nucleus & Bfa1lowA_Nucleus & Tem1lowA_Nucleus & !Bub2lowA_Nucleus);
+  rate_up = @logic ? $u_Tem1highA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Tem1highA_Nucleus;
+}
+
+Node Cdc15lowA_Nucleus {
+  logic = (Cdc15lowL_Nucleus);
+  rate_up = @logic ? $u_Cdc15lowA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowA_Nucleus;
+}
+
+Node Cdc15highA_Nucleus {
+  logic = (Cdc15highL_Nucleus & Cdc15lowA_Nucleus);
+  rate_up = @logic ? $u_Cdc15highA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highA_Nucleus;
+}
+
+Node Bub2lowA_Nucleus {
+  logic = (Bub2lowL_Nucleus);
+  rate_up = @logic ? $u_Bub2lowA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowA_Nucleus;
+}
+
+Node Bub2highA_Nucleus {
+  logic = (Bub2highL_Nucleus & Bub2lowA_Nucleus);
+  rate_up = @logic ? $u_Bub2highA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Bub2highA_Nucleus;
+}
+
+Node Rsa1A_Nucleus {
+  logic = (Rsa1L_Nucleus);
+  rate_up = @logic ? $u_Rsa1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Rsa1A_Nucleus;
+}
+
+Node Hit1A_Nucleus {
+  logic = (Hit1L_Nucleus);
+  rate_up = @logic ? $u_Hit1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Hit1A_Nucleus;
+}
+
+Node APCCdc20A_Nucleus {
+  logic = (APCCdc20L_Nucleus);
+  rate_up = @logic ? $u_APCCdc20A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_APCCdc20A_Nucleus;
+}
+
+Node Pds1A_Nucleus {
+  logic = (Pds1L_Nucleus & !APCCdc20A_Nucleus);
+  rate_up = @logic ? $u_Pds1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Pds1A_Nucleus;
+}
+
+Node Esp1A_Nucleus {
+  logic = (Esp1L_Nucleus & !Pds1A_Nucleus);
+  rate_up = @logic ? $u_Esp1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Esp1A_Nucleus;
+}
+
+Node Slk19A_Nucleus {
+  logic = (Slk19L_Nucleus & Esp1A_Nucleus);
+  rate_up = @logic ? $u_Slk19A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Slk19A_Nucleus;
+}
+
+Node Zds1A_Nucleus {
+  logic = (Zds1L_Nucleus & Esp1A_Nucleus & Slk19A_Nucleus);
+  rate_up = @logic ? $u_Zds1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Zds1A_Nucleus;
+}
+
+Node Cdc5A_Nucleus {
+  logic = (Cdc5L_Nucleus & CDKlowA_Nucleus);
+  rate_up = @logic ? $u_Cdc5A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc5A_Nucleus;
+}
+
+Node PP2ACdc55A_Nucleus {
+  logic = (PP2ACdc55L_Nucleus);
+  rate_up = @logic ? $u_PP2ACdc55A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_PP2ACdc55A_Nucleus;
+}
+
+Node CDKlowA_Nucleus {
+  logic = (CDKlowL_Nucleus);
+  rate_up = @logic ? $u_CDKlowA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_CDKlowA_Nucleus;
+}
+
+Node CDKhighA_Nucleus {
+  logic = (CDKhighL_Nucleus);
+  rate_up = @logic ? $u_CDKhighA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_CDKhighA_Nucleus;
+}
+
+Node Fob1A_Nucleus {
+  logic = (Fob1L_Nucleus & !Spo12A_Nucleus);
+  rate_up = @logic ? $u_Fob1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Fob1A_Nucleus;
+}
+
+Node Spo12A_Nucleus {
+  logic = (Spo12L_Nucleus);
+  rate_up = @logic ? $u_Spo12A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Spo12A_Nucleus;
+}
+
+Node SACA_Nucleus {
+  logic = (SACA_Nucleus);
+  rate_up = @logic ? $u_SACA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_SACA_Nucleus;
+}
+
+Node Cdc14lowA_Nucleus {
+  logic = (Cdc14lowL_Nucleus);
+  rate_up = @logic ? $u_Cdc14lowA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowA_Nucleus;
+}
+
+Node Cdc14highA_Nucleus {
+  logic = (Cdc14highL_Nucleus);
+  rate_up = @logic ? $u_Cdc14highA_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highA_Nucleus;
+}
+
+Node Net1A_Nucleus {
+  logic = (Net1L_Nucleus);
+  rate_up = @logic ? $u_Net1A_Nucleus : 0;
+  rate_down = @logic ? 0 : $d_Net1A_Nucleus;
+}
+
+Node Spo12A_Nucleolus {
+  logic = (Spo12L_Nucleolus & CDKlowA_Nucleus);
+  rate_up = @logic ? $u_Spo12A_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Spo12A_Nucleolus;
+}
+
+Node Fob1A_Nucleolus {
+  logic = (Fob1L_Nucleolus & !Spo12A_Nucleolus);
+  rate_up = @logic ? $u_Fob1A_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Fob1A_Nucleolus;
+}
+
+Node Hit1A_Nucleolus {
+  logic = (Hit1L_Nucleolus);
+  rate_up = @logic ? $u_Hit1A_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Hit1A_Nucleolus;
+}
+
+Node Rsa1A_Nucleolus {
+  logic = (Rsa1L_Nucleolus);
+  rate_up = @logic ? $u_Rsa1A_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Rsa1A_Nucleolus;
+}
+
+Node Net1A_Nucleolus {
+  logic = (!Mob1A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & !CDKlowA_Nucleus) | (!Mob1A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & !CDKhighA_Nucleus) | (!Mob1A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & CDKhighA_Nucleus & !Fob1A_Nucleolus & !Hit1A_Nucleolus) | (!Mob1A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & CDKhighA_Nucleus & !Fob1A_Nucleolus & Hit1A_Nucleolus & !Rsa1A_Nucleolus) | (!Mob1A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & CDKhighA_Nucleus & Fob1A_Nucleolus) | (!Mob1A_Nucleus & !Cdc5A_Nucleus & PP2ACdc55A_Nucleus) | (!Mob1A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & !CDKlowA_Nucleus) | (!Mob1A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & !Fob1A_Nucleolus & !Hit1A_Nucleolus) | (!Mob1A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & !Fob1A_Nucleolus & Hit1A_Nucleolus & !Rsa1A_Nucleolus) | (!Mob1A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & Fob1A_Nucleolus) | (!Mob1A_Nucleus & Cdc5A_Nucleus & PP2ACdc55A_Nucleus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & !CDKlowA_Nucleus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & !CDKhighA_Nucleus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & CDKhighA_Nucleus & !Fob1A_Nucleolus & !Hit1A_Nucleolus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & CDKhighA_Nucleus & !Fob1A_Nucleolus & Hit1A_Nucleolus & !Rsa1A_Nucleolus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & !Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & CDKhighA_Nucleus & Fob1A_Nucleolus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & !Cdc5A_Nucleus & PP2ACdc55A_Nucleus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & !CDKlowA_Nucleus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & !Fob1A_Nucleolus & !Hit1A_Nucleolus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & !Fob1A_Nucleolus & Hit1A_Nucleolus & !Rsa1A_Nucleolus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & Cdc5A_Nucleus & !PP2ACdc55A_Nucleus & CDKlowA_Nucleus & Fob1A_Nucleolus) | (Mob1A_Nucleus & !Dbf2A_Nucleus & Cdc5A_Nucleus & PP2ACdc55A_Nucleus) | (Mob1A_Nucleus & Dbf2A_Nucleus & !CDKlowA_Nucleus);
+  rate_up = @logic ? $u_Net1A_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Net1A_Nucleolus;
+}
+
+Node Cdc14lowA_Nucleolus {
+  logic = (Cdc14lowL_Nucleolus);
+  rate_up = @logic ? $u_Cdc14lowA_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowA_Nucleolus;
+}
+
+Node Cdc14highA_Nucleolus {
+  logic = (Cdc14highL_Nucleolus);
+  rate_up = @logic ? $u_Cdc14highA_Nucleolus : 0;
+  rate_down = @logic ? 0 : $d_Cdc14highA_Nucleolus;
+}
+
+Node Kin4A_mSPB {
+  logic = (Kin4L_mSPB & !Lte1A_Cytoplasm & Elm1A_Cytoplasm);
+  rate_up = @logic ? $u_Kin4A_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Kin4A_mSPB;
+}
+
+Node Cdc5A_mSPB {
+  logic = (Cdc5L_mSPB & !CDKlowA_Cytoplasm & CDKlowA_mSPB) | (Cdc5L_mSPB & CDKlowA_Cytoplasm);
+  rate_up = @logic ? $u_Cdc5A_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc5A_mSPB;
+}
+
+Node Nud1A_mSPB {
+  logic = (Cdc15lowA_mSPB);
+  rate_up = @logic ? $u_Nud1A_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Nud1A_mSPB;
+}
+
+Node Spc72A_mSPB {
+  logic = (Spc72L_mSPB);
+  rate_up = @logic ? $u_Spc72A_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Spc72A_mSPB;
+}
+
+Node CDKlowA_mSPB {
+  logic = (CDKlowL_mSPB);
+  rate_up = @logic ? $u_CDKlowA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_CDKlowA_mSPB;
+}
+
+Node Cdc14lowA_mSPB {
+  logic = (Cdc14lowL_mSPB);
+  rate_up = @logic ? $u_Cdc14lowA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowA_mSPB;
+}
+
+Node Bub2highA_mSPB {
+  logic = (Bub2highL_mSPB & Bub2lowA_mSPB);
+  rate_up = @logic ? $u_Bub2highA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2highA_mSPB;
+}
+
+Node Bfa1highA_mSPB {
+  logic = (!Bfa1highL_mSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Cdc5A_mSPB & Bfa1lowA_mSPB) | (!Bfa1highL_mSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Cdc5A_mSPB & Bfa1lowA_mSPB) | (!Bfa1highL_mSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & Cdc5A_mSPB & !Cdc14lowA_mSPB & Bfa1lowA_mSPB) | (Bfa1highL_mSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Cdc5A_mSPB & Bfa1lowA_mSPB) | (Bfa1highL_mSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & Cdc5A_mSPB & CDKlowA_mSPB & !Cdc14lowA_mSPB & Bfa1lowA_mSPB) | (Bfa1highL_mSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Cdc5A_mSPB & Bfa1lowA_mSPB) | (Bfa1highL_mSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & Cdc5A_mSPB & !Cdc14lowA_mSPB & Bfa1lowA_mSPB);
+  rate_up = @logic ? $u_Bfa1highA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highA_mSPB;
+}
+
+Node Tem1lowA_mSPB {
+  logic = (Tem1lowL_mSPB & !Amn1A_Cytoplasm) | (Tem1lowL_mSPB & Amn1A_Cytoplasm & !Bub2highA_mSPB) | (Tem1lowL_mSPB & Amn1A_Cytoplasm & Bub2highA_mSPB & !Bfa1highA_mSPB);
+  rate_up = @logic ? $u_Tem1lowA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowA_mSPB;
+}
+
+Node Bub2lowA_mSPB {
+  logic = (Bub2lowL_mSPB);
+  rate_up = @logic ? $u_Bub2lowA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowA_mSPB;
+}
+
+Node Bfa1lowA_mSPB {
+  logic = (Bfa1lowL_mSPB);
+  rate_up = @logic ? $u_Bfa1lowA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowA_mSPB;
+}
+
+Node Tem1highA_mSPB {
+  logic = (Tem1highL_mSPB & !Amn1A_Cytoplasm & Tem1lowA_mSPB) | (Tem1highL_mSPB & Amn1A_Cytoplasm & Tem1lowA_mSPB & !Bub2lowA_mSPB) | (Tem1highL_mSPB & Amn1A_Cytoplasm & Tem1lowA_mSPB & Bub2lowA_mSPB & !Bfa1lowA_mSPB);
+  rate_up = @logic ? $u_Tem1highA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1highA_mSPB;
+}
+
+Node Dbf2A_mSPB {
+  logic = (Dbf2L_mSPB & Cdc15highL_mSPB & Mob1A_mSPB);
+  rate_up = @logic ? $u_Dbf2A_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Dbf2A_mSPB;
+}
+
+Node Mob1A_mSPB {
+  logic = (Mob1L_mSPB);
+  rate_up = @logic ? $u_Mob1A_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Mob1A_mSPB;
+}
+
+Node Cdc15lowA_mSPB {
+  logic = (Cdc15lowL_mSPB);
+  rate_up = @logic ? $u_Cdc15lowA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowA_mSPB;
+}
+
+Node Cdc15highA_mSPB {
+  logic = (Cdc15highL_mSPB & Cdc15lowA_mSPB);
+  rate_up = @logic ? $u_Cdc15highA_mSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highA_mSPB;
+}
+
+Node Kin4A_dSPB {
+  logic = (Kin4L_dSPB & !Lte1A_Cytoplasm & !Elm1A_Cytoplasm & !Lte1A_Bud & Elm1A_Bud & SpindleAlign) | (Kin4L_dSPB & !Lte1A_Cytoplasm & Elm1A_Cytoplasm & !Lte1A_Bud & !Elm1A_Bud & !SpindleAlign) | (Kin4L_dSPB & !Lte1A_Cytoplasm & Elm1A_Cytoplasm & !Lte1A_Bud & Elm1A_Bud) | (Kin4L_dSPB & !Lte1A_Cytoplasm & Elm1A_Cytoplasm & Lte1A_Bud & !SpindleAlign) | (Kin4L_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & Elm1A_Bud & SpindleAlign);
+  rate_up = @logic ? $u_Kin4A_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Kin4A_dSPB;
+}
+
+Node Cdc5A_dSPB {
+  logic = (Cdc5L_dSPB & !CDKlowA_Cytoplasm & !CDKlowA_Bud & CDKlowA_dSPB) | (Cdc5L_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & !CDKlowA_dSPB & SpindleAlign) | (Cdc5L_dSPB & !CDKlowA_Cytoplasm & CDKlowA_Bud & CDKlowA_dSPB) | (Cdc5L_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & !CDKlowA_dSPB & !SpindleAlign) | (Cdc5L_dSPB & CDKlowA_Cytoplasm & !CDKlowA_Bud & CDKlowA_dSPB) | (Cdc5L_dSPB & CDKlowA_Cytoplasm & CDKlowA_Bud);
+  rate_up = @logic ? $u_Cdc5A_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc5A_dSPB;
+}
+
+Node Nud1A_dSPB {
+  logic = (Cdc15lowA_dSPB);
+  rate_up = @logic ? $u_Nud1A_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Nud1A_dSPB;
+}
+
+Node Spc72A_dSPB {
+  logic = (Spc72L_dSPB);
+  rate_up = @logic ? $u_Spc72A_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Spc72A_dSPB;
+}
+
+Node CDKlowA_dSPB {
+  logic = (CDKlowL_dSPB);
+  rate_up = @logic ? $u_CDKlowA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_CDKlowA_dSPB;
+}
+
+Node Cdc14lowA_dSPB {
+  logic = (Cdc14lowL_dSPB);
+  rate_up = @logic ? $u_Cdc14lowA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc14lowA_dSPB;
+}
+
+Node Bub2highA_dSPB {
+  logic = (Bub2highL_dSPB & Bub2lowA_dSPB);
+  rate_up = @logic ? $u_Bub2highA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2highA_dSPB;
+}
+
+Node Bfa1highA_dSPB {
+  logic = (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & Lte1A_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & Lte1A_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (!Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & Lte1A_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (!Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (!Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (!Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & Cdc5A_dSPB & CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & !CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & Lte1A_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & !CDKlowA_Cytoplasm & Lte1A_Bud & Cdc5A_dSPB & CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & Cdc5A_dSPB & !CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & Cdc5A_dSPB & CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & Lte1A_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (Bfa1highL_dSPB & !Lte1A_Cytoplasm & CDKlowA_Cytoplasm & Lte1A_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & !CDKlowA_Bud & Cdc5A_dSPB & CDKlowA_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & !Cdc5A_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (Bfa1highL_dSPB & Lte1A_Cytoplasm & !Lte1A_Bud & CDKlowA_Bud & Cdc5A_dSPB & !Cdc14lowA_dSPB & Bfa1lowA_dSPB & SpindleAlign);
+  rate_up = @logic ? $u_Bfa1highA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1highA_dSPB;
+}
+
+Node Tem1lowA_dSPB {
+  logic = (Tem1lowL_dSPB & !Amn1A_Cytoplasm & !Amn1A_Bud) | (Tem1lowL_dSPB & !Amn1A_Cytoplasm & Amn1A_Bud & !Bub2highA_dSPB) | (Tem1lowL_dSPB & !Amn1A_Cytoplasm & Amn1A_Bud & Bub2highA_dSPB & !Bfa1highA_dSPB) | (Tem1lowL_dSPB & !Amn1A_Cytoplasm & Amn1A_Bud & Bub2highA_dSPB & Bfa1highA_dSPB & !SpindleAlign) | (Tem1lowL_dSPB & Amn1A_Cytoplasm & !Amn1A_Bud & !Bub2highA_dSPB) | (Tem1lowL_dSPB & Amn1A_Cytoplasm & !Amn1A_Bud & Bub2highA_dSPB & !Bfa1highA_dSPB) | (Tem1lowL_dSPB & Amn1A_Cytoplasm & !Amn1A_Bud & Bub2highA_dSPB & Bfa1highA_dSPB & SpindleAlign) | (Tem1lowL_dSPB & Amn1A_Cytoplasm & Amn1A_Bud & !Bub2highA_dSPB) | (Tem1lowL_dSPB & Amn1A_Cytoplasm & Amn1A_Bud & Bub2highA_dSPB & !Bfa1highA_dSPB);
+  rate_up = @logic ? $u_Tem1lowA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1lowA_dSPB;
+}
+
+Node Bub2lowA_dSPB {
+  logic = (Bub2lowL_dSPB);
+  rate_up = @logic ? $u_Bub2lowA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bub2lowA_dSPB;
+}
+
+Node Bfa1lowA_dSPB {
+  logic = (Bfa1lowL_dSPB);
+  rate_up = @logic ? $u_Bfa1lowA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Bfa1lowA_dSPB;
+}
+
+Node Tem1highA_dSPB {
+  logic = (Tem1highL_dSPB & !Amn1A_Cytoplasm & !Amn1A_Bud & Tem1lowA_dSPB) | (Tem1highL_dSPB & !Amn1A_Cytoplasm & Amn1A_Bud & Tem1lowA_dSPB & !Bub2lowA_dSPB) | (Tem1highL_dSPB & !Amn1A_Cytoplasm & Amn1A_Bud & Tem1lowA_dSPB & Bub2lowA_dSPB & !Bfa1lowA_dSPB) | (Tem1highL_dSPB & !Amn1A_Cytoplasm & Amn1A_Bud & Tem1lowA_dSPB & Bub2lowA_dSPB & Bfa1lowA_dSPB & !SpindleAlign) | (Tem1highL_dSPB & Amn1A_Cytoplasm & !Amn1A_Bud & Tem1lowA_dSPB & !Bub2lowA_dSPB) | (Tem1highL_dSPB & Amn1A_Cytoplasm & !Amn1A_Bud & Tem1lowA_dSPB & Bub2lowA_dSPB & !Bfa1lowA_dSPB) | (Tem1highL_dSPB & Amn1A_Cytoplasm & !Amn1A_Bud & Tem1lowA_dSPB & Bub2lowA_dSPB & Bfa1lowA_dSPB & SpindleAlign) | (Tem1highL_dSPB & Amn1A_Cytoplasm & Amn1A_Bud & Tem1lowA_dSPB & !Bub2lowA_dSPB) | (Tem1highL_dSPB & Amn1A_Cytoplasm & Amn1A_Bud & Tem1lowA_dSPB & Bub2lowA_dSPB & !Bfa1lowA_dSPB);
+  rate_up = @logic ? $u_Tem1highA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Tem1highA_dSPB;
+}
+
+Node Dbf2A_dSPB {
+  logic = (Dbf2L_dSPB & Cdc15highL_dSPB & Mob1A_dSPB);
+  rate_up = @logic ? $u_Dbf2A_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Dbf2A_dSPB;
+}
+
+Node Mob1A_dSPB {
+  logic = (Mob1L_dSPB);
+  rate_up = @logic ? $u_Mob1A_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Mob1A_dSPB;
+}
+
+Node Cdc15lowA_dSPB {
+  logic = (Cdc15lowL_dSPB);
+  rate_up = @logic ? $u_Cdc15lowA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15lowA_dSPB;
+}
+
+Node Cdc15highA_dSPB {
+  logic = (Cdc15highL_dSPB & Cdc15lowA_dSPB);
+  rate_up = @logic ? $u_Cdc15highA_dSPB : 0;
+  rate_down = @logic ? 0 : $d_Cdc15highA_dSPB;
+}
+
+Node SpindleAlign {
+  logic = (SpindleAlign);
+  rate_up = @logic ? $u_SpindleAlign : 0;
+  rate_down = @logic ? 0 : $d_SpindleAlign;
+}
+
+Node ME {
+  logic = (Cdc14highA_Cytoplasm) | (ME);
+  rate_up = @logic ? $u_ME : 0;
+  rate_down = @logic ? 0 : $d_ME;
+}

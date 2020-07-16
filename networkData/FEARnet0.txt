@@ -1,0 +1,16 @@
+targets, factors
+APC_Cdc20, APC_Cdc20
+Pds1, ! APC_Cdc20
+Esp1, ! Pds1
+Slk19, Esp1
+Zds1, (Esp1 & Slk19)
+Cdc5, CDK_low
+PP2A_Cdc55, PP2A_Cdc55
+CDK_low, CDK_low
+CDK_high, CDK_high
+Fob1, ! Spo12
+Spo12, Spo12
+SAC, SAC
+Cdc14_low, Cdc14_low
+Cdc14_high, Cdc14_high
+Net1, Net1

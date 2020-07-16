@@ -1,0 +1,18 @@
+targets, factors
+Dbf2A.SPB,  (Cdc15_highL.SPB & Mob1A.SPB & Dbf2L.SPB)
+Dbf2A.Cytoplasm, (Dbf2A.SPB & Dbf2L.Cytoplasm)
+Dbf2A.Nucleus, (Dbf2A.Cytoplasm & Dbf2L.Nucleus)
+APC_Cdc20L.Cytoplasm, APC_Cdc20A.Nucleus
+Cdc14_highL.Cytoplasm, (Cdc14_highL.Nucleus & Mob1L.Nucleus & Dbf2A.Nucleus & Cdc14_lowL.Cytoplasm)
+Cdc14_lowL.Cytoplasm, Cdc14_highL.Nucleus
+Cdc5A.SPB, (CDK_lowA.Cytoplasm & Cdc5L.SPB)
+Tem1_lowL.SPB, Tem1_highA.Cytoplasm
+Tem1_highL.SPB, Tem1_highA.Cytoplasm & Tem1_lowL.SPB
+SACA.Nucleus, SACA.Nucleus
+Nud1A.SPB, Cdc15_lowA.SPB
+Cdc15_highL.SPB, (Nud1L.SPB & Cdc15_lowL.SPB & ! CDK_lowA.Cytoplasm & Cdc5A.SPB) | (Nud1L.SPB & Cdc15_lowL.SPB & ! CDK_lowA.Cytoplasm & Tem1_lowA.SPB)
+Bfa1_highA.SPB, (! Cdc5A.SPB & ! Lte1A.Cytoplasm & Bfa1_lowA.SPB) | (! Cdc14_lowA.SPB & CDK_lowA.Cytoplasm & Bfa1_lowA.SPB & ! Lte1A.Cytoplasm)
+Net1A.Nucleolus, (! Hit1A.Nucleolus & ! Mob1A.Nucleus) | (! Hit1A.Nucleolus & ! Dbf2A.Nucleus) | (! Rsa1A.Nucleolus & ! Mob1A.Nucleus) | (! Rsa1A.Nucleolus & ! Dbf2A.Nucleus) | ! CDK_lowA.Nucleus | (! Cdc5A.Nucleus & ! CDK_highA.Nucleus & ! Mob1A.Nucleus) | (PP2A_Cdc55A.Nucleus & ! Mob1A.Nucleus) | (Fob1A.Nucleolus & ! Mob1A.Nucleus)| (! Cdc5A.Nucleus & ! CDK_highA.Nucleus & ! Dbf2A.Nucleus) | (PP2A_Cdc55A.Nucleus & ! Dbf2A.Nucleus) | (Fob1A.Nucleolus & ! Dbf2A.Nucleus)
+Spo12A.Nucleolus, CDK_lowA.Nucleus & Spo12L.Nucleolus
+Cdc14_lowL.Nucleus, ! Net1A.Nucleolus & Cdc14_lowL.Nucleolus | ! Net1A.Nucleolus & Cdc14_lowL.Nucleus
+Cdc14_highL.Nucleus, ! Net1A.Nucleolus & Cdc14_lowL.Nucleus
