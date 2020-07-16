@@ -36,7 +36,7 @@ attractorsMultiMutant = function(prots = "NA", mutations = "NA", model, mutname,
     else{  print(paste0("Error: no initial condition for ",n))}
   }
   gOFF = c(gOFF,model$genes[grep("OE",model$genes)]) # all OE shoudl be switched off
-  locs =  c("dSPB", "mSPB", "Nucleus", "Cytoplasm","Bud")
+  locs =  c("dSPB", "mSPB", "Nucleus", "Cytoplasm","Bud", "Nucleolus")
   for(j in 1:length(prots)){
     protOG = prots[j]
     if(prots[j]%in% c("Bfa1", "Bub2", "Tem1", "Cdc15", "Dbf2", "Cdc14", "CDK")){ # multilevel

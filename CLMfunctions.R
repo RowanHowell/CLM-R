@@ -106,7 +106,7 @@ makeICs = function(AIC, LIC, model, directory){ # create a vector specifying ini
 
 
 extractCdc14_2 = function(data){ # get Cdc14 localization data from steady state data
-  cdc14Data = as_tibble(t(data[c("SACA_Nucleus", "SpindleAlign",paste0("Cdc14high","L_",c("Nucleus", "Cytoplasm", "Bud")),paste0("Cdc14low","L_",c("Nucleus", "Cytoplasm", "Bud")), "ME"),])) #transverse to make easier to use dplyr methods
+  cdc14Data = as_tibble(t(data[c("SACA_Nucleus", "SpindleAlign",paste0("Cdc14high","L_",c("Nucleus","Nucleolus", "Cytoplasm", "Bud")),paste0("Cdc14low","L_",c("Nucleus","Nucleolus", "Cytoplasm", "Bud")), "ME"),])) #transverse to make easier to use dplyr methods
   cdc14Data = mutate(cdc14Data, Cdc14L_Nucleus = Cdc14lowL_Nucleus+Cdc14highL_Nucleus, Cdc14L_Cytoplasm = Cdc14lowL_Cytoplasm+Cdc14highL_Cytoplasm, Cdc14L_Bud = Cdc14lowL_Bud+Cdc14highL_Bud, ME = ME*3, SpindleAlign = 3*SpindleAlign, SACA_Nucleus = 3*SACA_Nucleus)
   cdc14Data = select(cdc14Data, SACA_Nucleus, SpindleAlign,paste0("Cdc14","L_",c("Nucleus", "Cytoplasm", "Bud")), ME)
   cdc14Data[cdc14Data==0] = "OFF"

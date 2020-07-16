@@ -43,7 +43,7 @@ asyncStats = function(prot = "NA", mutation = "NA", model, unregfile, ICs, CCsta
   }
   gOFF = c(gOFF,model$genes[grep("OE",model$genes)]) # all OE shoudl be switched off
   gOFF = c(gOFF,model$genes[grep("FL",model$genes)]) # all FL shoudl be switched off
-  locs =  c("dSPB", "mSPB", "Nucleus", "Cytoplasm","Bud")
+  locs =  c("dSPB", "mSPB", "Nucleus", "Cytoplasm","Bud", "Nucleolus")
   
   for(j in 1:length(prot)){ # iterate throught list of mutant proteins
     protOG = prot[j]

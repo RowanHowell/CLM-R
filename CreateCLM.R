@@ -48,11 +48,12 @@ createNetwork = function(MEN, Loc, FEAR, LocSpec, netname, directory){
 
   Cyto = Prots
   SPB = filter(Locs, Localization == "SPB")$Prot # only proteins with an SPB localization rule will have an SPB localization node created
+  Nucleolus = filter(Locs, Localization == "Nucleolus")$Prot # only proteins with a nucleolus localization rule will have a nucleolus localization node created
   Bud = Cyto
   Nucleus = Prots
 
-  TheoLocs = list() # theoretical localizations refer to categories in localization network (cytoplasm, nucleus, SPB)
-  ProtLocs = list() # protein localizations refer to categories in CLM (cytoplasm, bud, nucleus, mSPB, dSPB)
+  TheoLocs = list() # theoretical localizations refer to categories in localization network (cytoplasm, nucleus, SPB, nucleolus)
+  ProtLocs = list() # protein localizations refer to categories in CLM (cytoplasm, bud, nucleus, mSPB, dSPB, nucleolus)
   for(j in Prots){
     tvec = c()
     tpvec = c()
@@ -68,13 +69,17 @@ createNetwork = function(MEN, Loc, FEAR, LocSpec, netname, directory){
       tvec = c(tvec, "Nucleus")
       tpvec = c(tpvec, "Nucleus")
     }
+    if(j %in% Nucleolus){
+      tvec = c(tvec, "Nucleolus")
+      tpvec = c(tpvec, "Nucleolus")
+    }
     TheoLocs[[j]] = tvec
     ProtLocs[[j]] = tpvec
   }
 
   # Create list of nodes
-  LocNodes = c(paste0(Cyto, "L.Cytoplasm"),paste0(Bud, "L.Bud"),paste0(Nucleus, "L.Nucleus"),paste0(SPB, "L.mSPB"),paste0(SPB, "L.dSPB"))
-  ActNodes = c(paste0(Cyto, "A.Cytoplasm"),paste0(Bud, "A.Bud"),paste0(Nucleus, "A.Nucleus"),paste0(SPB, "A.mSPB"),paste0(SPB, "A.dSPB"))
+  LocNodes = c(paste0(Cyto, "L.Cytoplasm"),paste0(Bud, "L.Bud"),paste0(Nucleus, "L.Nucleus"),paste0(Nucleolus, "L.Nucleolus"),paste0(SPB, "L.mSPB"),paste0(SPB, "L.dSPB"))
+  ActNodes = c(paste0(Cyto, "A.Cytoplasm"),paste0(Bud, "A.Bud"),paste0(Nucleus, "A.Nucleus"),paste0(Nucleolus, "A.Nucleolus"),paste0(SPB, "A.mSPB"),paste0(SPB, "A.dSPB"))
   
   #---------------------------------------------------------------------------------------------------------------------------------------------
   # make activity networks
@@ -140,6 +145,7 @@ createNetwork = function(MEN, Loc, FEAR, LocSpec, netname, directory){
           tLoc = c("Cytoplasm", "Bud")
         } else if(htLoc == "SPB"){
           tLoc = c("dSPB", "mSPB")
+        } else if(htLoc == "Nucleolus"){tLoc = c("Nucleolus")
         } else {tLoc = c("Nucleus")}
         tLEdges = c()
         for(e in tEdges){
@@ -166,6 +172,8 @@ createNetwork = function(MEN, Loc, FEAR, LocSpec, netname, directory){
                   } else{ # only other case should be dSPB
                     tRuleL = sub(tEdgeIns2[k], paste0(str_split(tEdgeIns2[k], "\\.")[[1]][1],"L.dSPB"), tRuleL)
                   }
+                } else if(regLoc == "Nucleolus"){ # Only one rule for nucleolus
+                  tRuleL = sub(tEdgeIns2[k], paste0(str_split(tEdgeIns2[k], "\\.")[[1]][1],"L.Nucleolus"), tRuleL)
                 } else{ # only other possibility is nuclear protein, which has only one version
                   tRuleL = sub(tEdgeIns2[k], paste0(str_split(tEdgeIns2[k], "\\.")[[1]][1],"L.Nucleus"), tRuleL)
                 }
@@ -206,6 +214,7 @@ createNetwork = function(MEN, Loc, FEAR, LocSpec, netname, directory){
       tLoc = c("Cytoplasm", "Bud")
     } else if(htLoc == "SPB"){
       tLoc = c("dSPB", "mSPB")
+    } else if(htLoc == "Nucleolus"){ tLoc = c("Nucleolus")
     } else {tLoc = c("Nucleus")}
     tRule = LocSpecNet[j,2]
     tRuleSplit = str_split(tRule, "\\|") # split around | (ORs)
@@ -237,6 +246,8 @@ createNetwork = function(MEN, Loc, FEAR, LocSpec, netname, directory){
               } else{ # only other case should be dSPB
                 tRuleL = sub(tEdgeIns2[k], paste0(str_split(tEdgeIns2[k], "\\.")[[1]][1],".dSPB"), tRuleL)
               }
+            } else if(regLoc == "Nucleolus"){
+              tRuleL = sub(tEdgeIns2[k], paste0(str_split(tEdgeIns2[k], "\\.")[[1]][1],".Nucleolus"), tRuleL)
             } else{ # only other possibility is nuclear protein, which has only one version
               tRuleL = sub(tEdgeIns2[k], paste0(str_split(tEdgeIns2[k], "\\.")[[1]][1],".Nucleus"), tRuleL)
             }
